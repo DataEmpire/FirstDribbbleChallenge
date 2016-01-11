@@ -7,6 +7,7 @@
 //
 
 #import "FDCSessionManager.h"
+#import "FDCShot.h"
 
 typedef void(^FDCDribbbleSuccessBlock)(id responseModel);
 
