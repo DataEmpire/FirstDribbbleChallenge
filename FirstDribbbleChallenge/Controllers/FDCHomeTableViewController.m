@@ -6,7 +6,12 @@
 //  Copyright © 2016 Data Empire. All rights reserved.
 //
 
+#import <Mantle/MTLJSONAdapter.h>
+
 #import "FDCHomeTableViewController.h"
+#import "FDCSessionManager.h"
+#import "FDCSessionManager+Shots.h"
+
 
 @interface FDCHomeTableViewController ()
 
@@ -14,9 +19,21 @@
 
 @implementation FDCHomeTableViewController
 
+
+-(void) testRequest
+{
+    FDCSessionManager *session = [FDCSessionManager sharedManager];
+    [session getShotsOnPage:@1 success:^(id responseModel) {
+        NSLog(@"%@", responseModel);
+    } failure:^(NSError *error) {
+        NSLog(@"%@", [error localizedDescription]);
+    }];
+}
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    [self testRequest];
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
