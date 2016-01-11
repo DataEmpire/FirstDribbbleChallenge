@@ -79,9 +79,9 @@
 			children = (
 				53AB85CA1C43DA1E00D83036 /* FirstDribbbleChallenge */,
 				53AB85E41C43DA1E00D83036 /* FirstDribbbleChallengeTests */,
-				53AB85C91C43DA1E00D83036 /* Products */,
-				47E73E94B78BD23909F6EF4F /* Pods */,
 				65C8DA195D314EB4B40476A1 /* Frameworks */,
+				47E73E94B78BD23909F6EF4F /* Pods */,
+				53AB85C91C43DA1E00D83036 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,13 +98,13 @@
 			isa = PBXGroup;
 			children = (
 				53AB85F01C43DA6A00D83036 /* Controllers */,
+				53AB85CB1C43DA1E00D83036 /* Supporting Files */,
+				53AB85D71C43DA1E00D83036 /* Assets.xcassets */,
 				53AB85CE1C43DA1E00D83036 /* FDCAppDelegate.h */,
 				53AB85CF1C43DA1E00D83036 /* FDCAppDelegate.m */,
-				53AB85D41C43DA1E00D83036 /* Main.storyboard */,
-				53AB85D71C43DA1E00D83036 /* Assets.xcassets */,
-				53AB85D91C43DA1E00D83036 /* LaunchScreen.storyboard */,
 				53AB85DC1C43DA1E00D83036 /* Info.plist */,
-				53AB85CB1C43DA1E00D83036 /* Supporting Files */,
+				53AB85D91C43DA1E00D83036 /* LaunchScreen.storyboard */,
+				53AB85D41C43DA1E00D83036 /* Main.storyboard */,
 			);
 			path = FirstDribbbleChallenge;
 			sourceTree = "<group>";
@@ -114,7 +114,7 @@
 			children = (
 				53AB85CC1C43DA1E00D83036 /* main.m */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		53AB85E41C43DA1E00D83036 /* FirstDribbbleChallengeTests */ = {
@@ -132,7 +132,7 @@
 				53AB85D11C43DA1E00D83036 /* FDCHomeViewController.h */,
 				53AB85D21C43DA1E00D83036 /* FDCHomeViewController.m */,
 			);
-			name = Controllers;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		65C8DA195D314EB4B40476A1 /* Frameworks */ = {
@@ -328,6 +328,7 @@
 				53AB85D51C43DA1E00D83036 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		53AB85D91C43DA1E00D83036 /* LaunchScreen.storyboard */ = {
@@ -336,6 +337,7 @@
 				53AB85DA1C43DA1E00D83036 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
