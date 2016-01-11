@@ -12,7 +12,6 @@
 #import "FDCSessionManager.h"
 #import "FDCSessionManager+Shots.h"
 
-
 @interface FDCHomeTableViewController ()
 
 @end
