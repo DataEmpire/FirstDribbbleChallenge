@@ -6,13 +6,13 @@
 //  Copyright © 2016 Data Empire. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "FDCAppDelegate.h"
 
-@interface AppDelegate ()
+@interface FDCAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation FDCAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {

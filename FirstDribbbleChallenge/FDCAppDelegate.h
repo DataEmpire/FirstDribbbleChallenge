@@ -8,10 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+/*! @brief The app delegate for app. */
+@interface FDCAppDelegate : UIResponder <UIApplicationDelegate>
 
+/*! @brief The window for the app. */
 @property (strong, nonatomic) UIWindow *window;
 
-
 @end
-

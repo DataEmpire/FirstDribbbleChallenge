@@ -6,22 +6,24 @@
 //  Copyright © 2016 Data Empire. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "FDCHomeViewController.h"
 
-@interface ViewController ()
+@interface FDCHomeViewController ()
 
 @end
 
-@implementation ViewController
+@implementation FDCHomeViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
+#pragma mark - UIViewController methods
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view, typically from a nib.
 }
 
 @end
