@@ -20,6 +20,10 @@
 		53AB85FD1C43E0EF00D83036 /* FDCDribbbleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53AB85FB1C43E0EF00D83036 /* FDCDribbbleTableViewCell.xib */; };
 		53AB86021C43E29600D83036 /* FDCSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 53AB86011C43E29600D83036 /* FDCSessionManager.m */; };
 		53AB86081C43E6BC00D83036 /* FDCSessionManager+Shots.m in Sources */ = {isa = PBXBuildFile; fileRef = 53AB86071C43E6BC00D83036 /* FDCSessionManager+Shots.m */; };
+		A54637321C43E9AA0077A0E2 /* FDCUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A54637311C43E9AA0077A0E2 /* FDCUser.m */; };
+		A54637351C43EC5F0077A0E2 /* FDCLinks.m in Sources */ = {isa = PBXBuildFile; fileRef = A54637341C43EC5F0077A0E2 /* FDCLinks.m */; };
+		A54637381C43EFB20077A0E2 /* FDCImageUrls.m in Sources */ = {isa = PBXBuildFile; fileRef = A54637371C43EFB20077A0E2 /* FDCImageUrls.m */; };
+		A546373B1C43F0E40077A0E2 /* FDCShot.m in Sources */ = {isa = PBXBuildFile; fileRef = A546373A1C43F0E40077A0E2 /* FDCShot.m */; };
 		D8F3CC3F87508CB597CEC7F7 /* libPods-FirstDribbbleChallenge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E0C98130E07B3FA6DF8A0B /* libPods-FirstDribbbleChallenge.a */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +65,14 @@
 		53AB86061C43E6BC00D83036 /* FDCSessionManager+Shots.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FDCSessionManager+Shots.h"; sourceTree = "<group>"; };
 		53AB86071C43E6BC00D83036 /* FDCSessionManager+Shots.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FDCSessionManager+Shots.m"; sourceTree = "<group>"; };
 		65C6331200F20F2A55CDF12D /* Pods-FirstDribbbleChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstDribbbleChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirstDribbbleChallenge/Pods-FirstDribbbleChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		A54637301C43E9AA0077A0E2 /* FDCUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FDCUser.h; path = FirstDribbbleChallenge/FDCUser.h; sourceTree = SOURCE_ROOT; };
+		A54637311C43E9AA0077A0E2 /* FDCUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FDCUser.m; path = FirstDribbbleChallenge/FDCUser.m; sourceTree = SOURCE_ROOT; };
+		A54637331C43EC5F0077A0E2 /* FDCLinks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FDCLinks.h; path = FirstDribbbleChallenge/FDCLinks.h; sourceTree = SOURCE_ROOT; };
+		A54637341C43EC5F0077A0E2 /* FDCLinks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FDCLinks.m; path = FirstDribbbleChallenge/FDCLinks.m; sourceTree = SOURCE_ROOT; };
+		A54637361C43EFB20077A0E2 /* FDCImageUrls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FDCImageUrls.h; path = FirstDribbbleChallenge/FDCImageUrls.h; sourceTree = SOURCE_ROOT; };
+		A54637371C43EFB20077A0E2 /* FDCImageUrls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FDCImageUrls.m; path = FirstDribbbleChallenge/FDCImageUrls.m; sourceTree = SOURCE_ROOT; };
+		A54637391C43F0E40077A0E2 /* FDCShot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FDCShot.h; path = FirstDribbbleChallenge/FDCShot.h; sourceTree = SOURCE_ROOT; };
+		A546373A1C43F0E40077A0E2 /* FDCShot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FDCShot.m; path = FirstDribbbleChallenge/FDCShot.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +192,14 @@
 		53AB85FE1C43E10600D83036 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				A54637301C43E9AA0077A0E2 /* FDCUser.h */,
+				A54637311C43E9AA0077A0E2 /* FDCUser.m */,
+				A54637331C43EC5F0077A0E2 /* FDCLinks.h */,
+				A54637341C43EC5F0077A0E2 /* FDCLinks.m */,
+				A54637361C43EFB20077A0E2 /* FDCImageUrls.h */,
+				A54637371C43EFB20077A0E2 /* FDCImageUrls.m */,
+				A54637391C43F0E40077A0E2 /* FDCShot.h */,
+				A546373A1C43F0E40077A0E2 /* FDCShot.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -361,11 +381,15 @@
 				53AB85D31C43DA1E00D83036 /* FDCDetailViewController.m in Sources */,
 				53AB86021C43E29600D83036 /* FDCSessionManager.m in Sources */,
 				53AB85F71C43E02A00D83036 /* FDCHomeTableViewController.m in Sources */,
+				A54637351C43EC5F0077A0E2 /* FDCLinks.m in Sources */,
 				53AB85D01C43DA1E00D83036 /* FDCAppDelegate.m in Sources */,
 				53AB86081C43E6BC00D83036 /* FDCSessionManager+Shots.m in Sources */,
 				53AB85CD1C43DA1E00D83036 /* main.m in Sources */,
 				53AB85F41C43DD3400D83036 /* FDCConstants.m in Sources */,
 				53AB85FC1C43E0EF00D83036 /* FDCDribbbleTableViewCell.m in Sources */,
+				A54637381C43EFB20077A0E2 /* FDCImageUrls.m in Sources */,
+				A54637321C43E9AA0077A0E2 /* FDCUser.m in Sources */,
+				A546373B1C43F0E40077A0E2 /* FDCShot.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
