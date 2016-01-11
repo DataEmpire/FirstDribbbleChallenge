@@ -6,13 +6,13 @@
 //  Copyright © 2016 Data Empire. All rights reserved.
 //
 
-#import "FDCHomeViewController.h"
+#import "FDCDetailViewController.h"
 
-@interface FDCHomeViewController ()
+@interface FDCDetailViewController ()
 
 @end
 
-@implementation FDCHomeViewController
+@implementation FDCDetailViewController
 
 #pragma mark - UIViewController methods
 

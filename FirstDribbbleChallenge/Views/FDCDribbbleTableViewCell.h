@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FDCDribbbleTableViewCell.h
 //  FirstDribbbleChallenge
 //
 //  Created by Rafael Ferreira on 1/11/16.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-/*! @brief The view controller for home view. */
-@interface FDCHomeViewController : UIViewController
+@interface FDCDribbbleTableViewCell : UITableViewCell
 
 @end

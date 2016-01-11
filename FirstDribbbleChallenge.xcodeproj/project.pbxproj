@@ -9,11 +9,17 @@
 /* Begin PBXBuildFile section */
 		53AB85CD1C43DA1E00D83036 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53AB85CC1C43DA1E00D83036 /* main.m */; };
 		53AB85D01C43DA1E00D83036 /* FDCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53AB85CF1C43DA1E00D83036 /* FDCAppDelegate.m */; };
-		53AB85D31C43DA1E00D83036 /* FDCHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53AB85D21C43DA1E00D83036 /* FDCHomeViewController.m */; };
+		53AB85D31C43DA1E00D83036 /* FDCDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53AB85D21C43DA1E00D83036 /* FDCDetailViewController.m */; };
 		53AB85D61C43DA1E00D83036 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53AB85D41C43DA1E00D83036 /* Main.storyboard */; };
 		53AB85D81C43DA1E00D83036 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53AB85D71C43DA1E00D83036 /* Assets.xcassets */; };
 		53AB85DB1C43DA1E00D83036 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53AB85D91C43DA1E00D83036 /* LaunchScreen.storyboard */; };
 		53AB85E61C43DA1E00D83036 /* FirstDribbbleChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53AB85E51C43DA1E00D83036 /* FirstDribbbleChallengeTests.m */; };
+		53AB85F41C43DD3400D83036 /* FDCConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 53AB85F31C43DD3400D83036 /* FDCConstants.m */; };
+		53AB85F71C43E02A00D83036 /* FDCHomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53AB85F61C43E02A00D83036 /* FDCHomeTableViewController.m */; };
+		53AB85FC1C43E0EF00D83036 /* FDCDribbbleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 53AB85FA1C43E0EF00D83036 /* FDCDribbbleTableViewCell.m */; };
+		53AB85FD1C43E0EF00D83036 /* FDCDribbbleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53AB85FB1C43E0EF00D83036 /* FDCDribbbleTableViewCell.xib */; };
+		53AB86021C43E29600D83036 /* FDCSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 53AB86011C43E29600D83036 /* FDCSessionManager.m */; };
+		53AB86081C43E6BC00D83036 /* FDCSessionManager+Shots.m in Sources */ = {isa = PBXBuildFile; fileRef = 53AB86071C43E6BC00D83036 /* FDCSessionManager+Shots.m */; };
 		D8F3CC3F87508CB597CEC7F7 /* libPods-FirstDribbbleChallenge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E0C98130E07B3FA6DF8A0B /* libPods-FirstDribbbleChallenge.a */; };
 /* End PBXBuildFile section */
 
@@ -34,8 +40,8 @@
 		53AB85CC1C43DA1E00D83036 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		53AB85CE1C43DA1E00D83036 /* FDCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDCAppDelegate.h; sourceTree = "<group>"; };
 		53AB85CF1C43DA1E00D83036 /* FDCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDCAppDelegate.m; sourceTree = "<group>"; };
-		53AB85D11C43DA1E00D83036 /* FDCHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDCHomeViewController.h; sourceTree = "<group>"; };
-		53AB85D21C43DA1E00D83036 /* FDCHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDCHomeViewController.m; sourceTree = "<group>"; };
+		53AB85D11C43DA1E00D83036 /* FDCDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDCDetailViewController.h; sourceTree = "<group>"; };
+		53AB85D21C43DA1E00D83036 /* FDCDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDCDetailViewController.m; sourceTree = "<group>"; };
 		53AB85D51C43DA1E00D83036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		53AB85D71C43DA1E00D83036 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53AB85DA1C43DA1E00D83036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -43,6 +49,17 @@
 		53AB85E11C43DA1E00D83036 /* FirstDribbbleChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstDribbbleChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53AB85E51C43DA1E00D83036 /* FirstDribbbleChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstDribbbleChallengeTests.m; sourceTree = "<group>"; };
 		53AB85E71C43DA1E00D83036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53AB85F21C43DD3400D83036 /* FDCConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDCConstants.h; sourceTree = "<group>"; };
+		53AB85F31C43DD3400D83036 /* FDCConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDCConstants.m; sourceTree = "<group>"; };
+		53AB85F51C43E02A00D83036 /* FDCHomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDCHomeTableViewController.h; sourceTree = "<group>"; };
+		53AB85F61C43E02A00D83036 /* FDCHomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDCHomeTableViewController.m; sourceTree = "<group>"; };
+		53AB85F91C43E0EF00D83036 /* FDCDribbbleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDCDribbbleTableViewCell.h; sourceTree = "<group>"; };
+		53AB85FA1C43E0EF00D83036 /* FDCDribbbleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDCDribbbleTableViewCell.m; sourceTree = "<group>"; };
+		53AB85FB1C43E0EF00D83036 /* FDCDribbbleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FDCDribbbleTableViewCell.xib; sourceTree = "<group>"; };
+		53AB86001C43E29600D83036 /* FDCSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDCSessionManager.h; sourceTree = "<group>"; };
+		53AB86011C43E29600D83036 /* FDCSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDCSessionManager.m; sourceTree = "<group>"; };
+		53AB86061C43E6BC00D83036 /* FDCSessionManager+Shots.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FDCSessionManager+Shots.h"; sourceTree = "<group>"; };
+		53AB86071C43E6BC00D83036 /* FDCSessionManager+Shots.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FDCSessionManager+Shots.m"; sourceTree = "<group>"; };
 		65C6331200F20F2A55CDF12D /* Pods-FirstDribbbleChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstDribbbleChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirstDribbbleChallenge/Pods-FirstDribbbleChallenge.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,6 +114,10 @@
 		53AB85CA1C43DA1E00D83036 /* FirstDribbbleChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				53AB85FF1C43E25E00D83036 /* Network */,
+				53AB85FE1C43E10600D83036 /* Models */,
+				53AB85F81C43E0A600D83036 /* Views */,
+				53AB85F11C43DCE200D83036 /* Helpers */,
 				53AB85F01C43DA6A00D83036 /* Controllers */,
 				53AB85CB1C43DA1E00D83036 /* Supporting Files */,
 				53AB85D71C43DA1E00D83036 /* Assets.xcassets */,
@@ -129,10 +150,49 @@
 		53AB85F01C43DA6A00D83036 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				53AB85D11C43DA1E00D83036 /* FDCHomeViewController.h */,
-				53AB85D21C43DA1E00D83036 /* FDCHomeViewController.m */,
+				53AB85D11C43DA1E00D83036 /* FDCDetailViewController.h */,
+				53AB85D21C43DA1E00D83036 /* FDCDetailViewController.m */,
+				53AB85F51C43E02A00D83036 /* FDCHomeTableViewController.h */,
+				53AB85F61C43E02A00D83036 /* FDCHomeTableViewController.m */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		53AB85F11C43DCE200D83036 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				53AB85F21C43DD3400D83036 /* FDCConstants.h */,
+				53AB85F31C43DD3400D83036 /* FDCConstants.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		53AB85F81C43E0A600D83036 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				53AB85F91C43E0EF00D83036 /* FDCDribbbleTableViewCell.h */,
+				53AB85FA1C43E0EF00D83036 /* FDCDribbbleTableViewCell.m */,
+				53AB85FB1C43E0EF00D83036 /* FDCDribbbleTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		53AB85FE1C43E10600D83036 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		53AB85FF1C43E25E00D83036 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				53AB86001C43E29600D83036 /* FDCSessionManager.h */,
+				53AB86011C43E29600D83036 /* FDCSessionManager.m */,
+				53AB86061C43E6BC00D83036 /* FDCSessionManager+Shots.h */,
+				53AB86071C43E6BC00D83036 /* FDCSessionManager+Shots.m */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 		65C8DA195D314EB4B40476A1 /* Frameworks */ = {
@@ -232,6 +292,7 @@
 				53AB85DB1C43DA1E00D83036 /* LaunchScreen.storyboard in Resources */,
 				53AB85D81C43DA1E00D83036 /* Assets.xcassets in Resources */,
 				53AB85D61C43DA1E00D83036 /* Main.storyboard in Resources */,
+				53AB85FD1C43E0EF00D83036 /* FDCDribbbleTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,9 +358,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53AB85D31C43DA1E00D83036 /* FDCHomeViewController.m in Sources */,
+				53AB85D31C43DA1E00D83036 /* FDCDetailViewController.m in Sources */,
+				53AB86021C43E29600D83036 /* FDCSessionManager.m in Sources */,
+				53AB85F71C43E02A00D83036 /* FDCHomeTableViewController.m in Sources */,
 				53AB85D01C43DA1E00D83036 /* FDCAppDelegate.m in Sources */,
+				53AB86081C43E6BC00D83036 /* FDCSessionManager+Shots.m in Sources */,
 				53AB85CD1C43DA1E00D83036 /* main.m in Sources */,
+				53AB85F41C43DD3400D83036 /* FDCConstants.m in Sources */,
+				53AB85FC1C43E0EF00D83036 /* FDCDribbbleTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
