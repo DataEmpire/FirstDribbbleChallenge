@@ -10,5 +10,9 @@
 
 /*! @brief The table view with the list from Dribbble. */
 @interface FDCHomeTableViewController : UITableViewController
+{
+    /* The shots that will be showed. */
+    NSMutableArray *shots;
+}
 
 @end
