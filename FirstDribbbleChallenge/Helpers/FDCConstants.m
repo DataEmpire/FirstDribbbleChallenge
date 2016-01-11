@@ -16,4 +16,4 @@ NSString *const kClientAccessToken = @"22e5b3c100a0e1b4aa3f66d4f95f9101895b3829d
 
 NSString *const kDribbleBaseURL = @"https://api.dribbble.com";
 
-NSString *const kShotsEndPoint = @"v%d/shots/";
+NSString *const kShotsEndPoint = @"v%@/shots/";

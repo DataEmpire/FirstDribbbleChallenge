@@ -18,11 +18,10 @@
                                  @"page": page
                                  };
     
-    return [self GET:kShotsEndPoint parameters:parameters progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-        NSDictionary *responseDictionary = (NSDictionary *)responseObject;
+    return [self GET:[NSString stringWithFormat:kShotsEndPoint, @1] parameters:parameters progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         NSError *error;
         
-        NSArray *dribbbleResponse = [MTLJSONAdapter modelOfClass:[FDCShot class] fromJSONDictionary:responseDictionary error:&error];
+        NSArray *dribbbleResponse = [MTLJSONAdapter modelsOfClass:[FDCShot class] fromJSONArray:responseObject error:&error];
         
         success(dribbbleResponse);
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
