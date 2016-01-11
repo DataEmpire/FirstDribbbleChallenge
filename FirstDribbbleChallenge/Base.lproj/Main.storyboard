@@ -28,6 +28,7 @@
                             <outlet property="delegate" destination="tMa-6j-ffA" id="IPb-7J-NTT"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" id="Tdm-i1-qFm"/>
                     <connections>
                         <segue destination="r4L-kW-weg" kind="show" id="G1G-3Z-VaX"/>
                     </connections>
@@ -66,7 +67,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="tMa-6j-ffA" kind="show" identifier="SDCHomeViewController" id="cHT-gk-OC6"/>
+                        <segue destination="tMa-6j-ffA" kind="relationship" relationship="rootViewController" id="cpm-GQ-f3H"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k0H-dT-ASb" userLabel="First Responder" sceneMemberID="firstResponder"/>
