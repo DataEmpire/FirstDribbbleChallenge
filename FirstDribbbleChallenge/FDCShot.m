@@ -10,9 +10,7 @@
 
 @implementation FDCShot
 
-
-+(NSDictionary *)JSONKeyPathsByPropertyKey
-{
++ (NSDictionary *)JSONKeyPathsByPropertyKey {
     return @{
              @"shotId": @"id",
              @"title": @"title",

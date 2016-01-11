@@ -15,7 +15,6 @@
 #pragma mark - Model Boolean
 @property (nonatomic) BOOL animated;
 
-
 #pragma mark - Model Numbers
 @property (nonatomic, strong) NSNumber *shotId;
 @property (nonatomic, strong) NSNumber *width;
