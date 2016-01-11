@@ -11,9 +11,6 @@
 
 @implementation FDCShot
 
-<<<<<<< HEAD
-+ (NSDictionary *)JSONKeyPathsByPropertyKey {
-=======
 -(instancetype) initWithDictionary:(NSDictionary *)dictionaryValue error:(NSError *__autoreleasing *)error
 {
     self = [super initWithDictionary:dictionaryValue error:error];
@@ -29,7 +26,6 @@
 
 +(NSDictionary *)JSONKeyPathsByPropertyKey
 {
->>>>>>> origin/master
     return @{
              @"shotId": @"id",
              @"user": @"user",
@@ -58,12 +54,6 @@
              @"tags":@"tags"
              };
 }
-
-
-//+(NSValueTransformer *) userJSONTransformer
-//{
-//    return [MTLJSONAdapter arrayTransformerWithModelClass:FDCUser.class];
-//}
 
 
 @end
