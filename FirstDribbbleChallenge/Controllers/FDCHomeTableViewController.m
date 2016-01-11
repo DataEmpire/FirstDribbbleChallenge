@@ -14,8 +14,6 @@
 
 @implementation FDCHomeTableViewController
 
-
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     
