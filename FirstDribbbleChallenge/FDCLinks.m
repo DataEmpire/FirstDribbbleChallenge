@@ -10,6 +10,17 @@
 
 @implementation FDCLinks
 
+
+- (instancetype)initWithDictionary:(NSDictionary *)dictionaryValue error:(NSError *__autoreleasing *)error {
+    self = [super initWithDictionary:dictionaryValue error:error];
+    
+    if (self) {
+        
+    }
+    
+    return self;
+}
+
 +(NSDictionary *)JSONKeyPathsByPropertyKey
 {
     return @{

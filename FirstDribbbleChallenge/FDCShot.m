@@ -7,12 +7,34 @@
 //
 
 #import "FDCShot.h"
+#import "FDCUser.h"
 
 @implementation FDCShot
 
+<<<<<<< HEAD
 + (NSDictionary *)JSONKeyPathsByPropertyKey {
+=======
+-(instancetype) initWithDictionary:(NSDictionary *)dictionaryValue error:(NSError *__autoreleasing *)error
+{
+    self = [super initWithDictionary:dictionaryValue error:error];
+    
+    if(self)
+    {
+        
+    }
+    
+    return self;
+}
+
+
++(NSDictionary *)JSONKeyPathsByPropertyKey
+{
+>>>>>>> origin/master
     return @{
              @"shotId": @"id",
+             @"user": @"user",
+             @"team":@"team",
+             @"imageUrls":@"images",
              @"title": @"title",
              @"shotDescription": @"description",
              @"width": @"width",
@@ -32,8 +54,16 @@
              @"likesUrl": @"likes_url",
              @"projectsUrl": @"projects_url",
              @"reboundsUrl": @"rebounds_url",
-             @"animated": @"animated"
+             @"animated": @"animated",
+             @"tags":@"tags"
              };
 }
+
+
+//+(NSValueTransformer *) userJSONTransformer
+//{
+//    return [MTLJSONAdapter arrayTransformerWithModelClass:FDCUser.class];
+//}
+
 
 @end

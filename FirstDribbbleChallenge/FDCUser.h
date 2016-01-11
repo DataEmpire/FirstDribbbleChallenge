@@ -11,19 +11,22 @@
 
 @interface FDCUser : MTLModel<MTLJSONSerializing>
 
+#pragma mark - Model BOOL
+@property (nonatomic) BOOL canUploadShot;
+@property (nonatomic) BOOL pro;
 
 #pragma mark - Model Numbers
 @property (nonatomic, strong) NSNumber *userId;
 @property (nonatomic, strong) NSNumber *bucketsCount;
-@property (nonatomic, strong) NSString *shotsCount;
-@property (nonatomic, strong) NSString *teamsCount;
-@property (nonatomic, strong) NSString *followersCount;
-@property (nonatomic, strong) NSString *followingsCount;
-@property (nonatomic, strong) NSString *likesCount;
-@property (nonatomic, strong) NSString *likesReceivedCount;
-@property (nonatomic, strong) NSString *projectsCount;
-@property (nonatomic, strong) NSString *commentsReceivedCount;
-@property (nonatomic, strong) NSString *reboundsReceivedCount;
+@property (nonatomic, strong) NSNumber *shotsCount;
+@property (nonatomic, strong) NSNumber *teamsCount;
+@property (nonatomic, strong) NSNumber *followersCount;
+@property (nonatomic, strong) NSNumber *followingsCount;
+@property (nonatomic, strong) NSNumber *likesCount;
+@property (nonatomic, strong) NSNumber *likesReceivedCount;
+@property (nonatomic, strong) NSNumber *projectsCount;
+@property (nonatomic, strong) NSNumber *commentsReceivedCount;
+@property (nonatomic, strong) NSNumber *reboundsReceivedCount;
 
 #pragma mark - Model Strings
 @property (nonatomic, copy) NSString *name;
@@ -32,9 +35,7 @@
 @property (nonatomic, copy) NSString *avatarUrl;
 @property (nonatomic, copy) NSString *bio;
 @property (nonatomic, copy) NSString *location;
-@property (nonatomic, copy) NSString *canUploadShot;
 @property (nonatomic, copy) NSString *type;
-@property (nonatomic, copy) NSString *pro;
 @property (nonatomic, copy) NSString *bucketsUrl;
 @property (nonatomic, copy) NSString *followersUrl;
 @property (nonatomic, copy) NSString *followingUrl;

@@ -11,6 +11,16 @@
 
 @implementation FDCUser
 
+- (instancetype)initWithDictionary:(NSDictionary *)dictionaryValue error:(NSError *__autoreleasing *)error {
+    self = [super initWithDictionary:dictionaryValue error:error];
+    
+    if (self) {
+        
+    }
+    
+    return self;
+}
+
 /*!
  @summary 
  
@@ -19,8 +29,8 @@
 +(NSDictionary *)JSONKeyPathsByPropertyKey
 {
     return @{
-             @"userId":@"id",
-             @"name":@"name",
+             @"userId": @"id",
+             @"name": @"name",
              @"userName":@"username",
              @"htmlUrl":@"html_url",
              @"avatarUrl":@"avatar_url",
@@ -34,7 +44,7 @@
              @"likesCount":@"likes_count",
              @"likesReceivedCount":@"likes_received_count",
              @"projectsCount":@"projects_count",
-             @"reboundsReceived_count":@"rebounds_received_count",
+             @"reboundsReceivedCount":@"rebounds_received_count",
              @"shotsCount":@"shots_count",
              @"teamsCount":@"teams_count",
              @"canUploadShot":@"can_upload_shot",
@@ -48,7 +58,7 @@
              @"shotsUrl":@"shots_url",
              @"teamsUrl":@"teams_url",
              @"createdAt":@"created_at",
-             @"updatedAt":@"updated_at",
+             @"updatedAt":@"updated_at"
              };
 }
 
