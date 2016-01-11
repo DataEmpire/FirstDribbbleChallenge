@@ -22,3 +22,6 @@ extern NSString *const kDribbleBaseURL;
 
 /*! @brief The end point for request shots from dribbble api. */
 extern NSString *const kShotsEndPoint;
+
+/*! @object The cell unique identifier for Dribbble item. */
+extern NSString *const kDribbbleCellIdentifier;

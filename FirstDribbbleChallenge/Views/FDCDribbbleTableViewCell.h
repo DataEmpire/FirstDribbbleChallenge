@@ -7,7 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FDCShot.h"
 
-@interface FDCDribbbleTableViewCell : UITableViewCell
+/*! @brief The code-behind class for a dribbble shot item. */
+@interface FDCDribbbleTableViewCell : UITableViewCell {
+    FDCShot *shotDetails;
+}
+
+@property (weak, nonatomic) IBOutlet UIImageView *shotImageView;
+
+@property (weak, nonatomic) IBOutlet UILabel *shotDescriptionLabel;
+
+@property (weak, nonatomic) IBOutlet UILabel *viewsCountLabel;
+
+- (void)setUpWithShotModel:(FDCShot *)shot;
 
 @end

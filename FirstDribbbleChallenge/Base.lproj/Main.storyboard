@@ -13,29 +13,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FDCTableCellIdentifier" id="2sR-oy-gyM">
-                                <rect key="frame" x="0.0" y="92" width="320" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2sR-oy-gyM" id="oYP-2y-2uJ">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
                         <connections>
                             <outlet property="dataSource" destination="tMa-6j-ffA" id="SwO-8d-mdJ"/>
                             <outlet property="delegate" destination="tMa-6j-ffA" id="IPb-7J-NTT"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="Tdm-i1-qFm"/>
+                    <navigationItem key="navigationItem" title="Dribbble Shots" id="Tdm-i1-qFm"/>
                     <connections>
-                        <segue destination="r4L-kW-weg" kind="show" id="G1G-3Z-VaX"/>
+                        <segue destination="r4L-kW-weg" kind="show" identifier="FDCDetailViewControllerSegue" id="G1G-3Z-VaX"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UDq-kX-GHR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="949" y="337"/>
+            <point key="canvasLocation" x="821" y="337"/>
         </scene>
         <!--Detail-->
         <scene sceneID="Mbk-0q-zQD">
@@ -53,7 +43,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cNH-T0-UWx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1483" y="337"/>
+            <point key="canvasLocation" x="1225" y="337"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="e8a-eA-rId">

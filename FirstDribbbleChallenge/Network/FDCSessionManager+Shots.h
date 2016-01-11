@@ -9,13 +9,13 @@
 #import "FDCSessionManager.h"
 #import "FDCShot.h"
 
-typedef void(^FDCDribbbleSuccessBlock)(id responseModel);
+typedef void(^FDCDribbbleSuccessBlock)(NSArray *responseModel);
 
 typedef void(^FDCDribbbleFailureBlock)(NSError *error);
 
 /*! @brief The methods for Shots requests. */
 @interface FDCSessionManager (Shots)
 
-- (NSURLSessionDataTask *) getShotsOnPage:(NSNumber *)page success:(FDCDribbbleSuccessBlock)success failure:(FDCDribbbleFailureBlock)failure;
+- (NSURLSessionDataTask *)getShotsOnPage:(NSNumber *)page success:(FDCDribbbleSuccessBlock)success failure:(FDCDribbbleFailureBlock)failure;
 
 @end

@@ -20,15 +20,9 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cpQ-3z-JbJ">
                         <rect key="frame" x="0.0" y="179" width="320" height="40"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shot description here." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aVR-8g-b9g">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shot description here." textAlignment="natural" lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aVR-8g-b9g">
                                 <rect key="frame" x="10" y="10" width="179" height="20"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="99999" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZcQ-pa-eI4">
-                                <rect key="frame" x="257" y="10" width="52.5" height="20"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -38,6 +32,12 @@
                                     <constraint firstAttribute="width" constant="40" id="DWV-nf-rhH"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="99999" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZcQ-pa-eI4">
+                                <rect key="frame" x="257" y="10" width="52.5" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -64,6 +64,11 @@
                     <constraint firstAttribute="bottom" secondItem="NmS-53-7xj" secondAttribute="bottom" id="xKm-TD-4qk"/>
                 </constraints>
             </tableViewCellContentView>
+            <connections>
+                <outlet property="shotDescriptionLabel" destination="aVR-8g-b9g" id="4yR-kg-fqR"/>
+                <outlet property="shotImageView" destination="NmS-53-7xj" id="EBg-fU-jbA"/>
+                <outlet property="viewsCountLabel" destination="ZcQ-pa-eI4" id="92e-hx-zoW"/>
+            </connections>
             <point key="canvasLocation" x="483" y="267"/>
         </tableViewCell>
     </objects>

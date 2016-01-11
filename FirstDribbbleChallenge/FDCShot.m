@@ -7,25 +7,10 @@
 //
 
 #import "FDCShot.h"
-#import "FDCUser.h"
 
 @implementation FDCShot
 
--(instancetype) initWithDictionary:(NSDictionary *)dictionaryValue error:(NSError *__autoreleasing *)error
-{
-    self = [super initWithDictionary:dictionaryValue error:error];
-    
-    if(self)
-    {
-        
-    }
-    
-    return self;
-}
-
-
-+(NSDictionary *)JSONKeyPathsByPropertyKey
-{
++ (NSDictionary *)JSONKeyPathsByPropertyKey {
     return @{
              @"shotId": @"id",
              @"user": @"user",
@@ -54,6 +39,5 @@
              @"tags":@"tags"
              };
 }
-
 
 @end

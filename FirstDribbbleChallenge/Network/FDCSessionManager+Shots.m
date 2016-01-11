@@ -12,7 +12,7 @@
 
 @implementation FDCSessionManager (Shots)
 
-- (NSURLSessionDataTask *) getShotsOnPage:(NSNumber *)page success:(FDCDribbbleSuccessBlock)success failure:(FDCDribbbleFailureBlock)failure {
+- (NSURLSessionDataTask *)getShotsOnPage:(NSNumber *)page success:(FDCDribbbleSuccessBlock)success failure:(FDCDribbbleFailureBlock)failure {
     NSDictionary *parameters = @{
                                  @"access_token": kClientAccessToken,
                                  @"page": page

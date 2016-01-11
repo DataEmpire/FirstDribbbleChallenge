@@ -6,11 +6,12 @@
 //  Copyright © 2016 Data Empire. All rights reserved.
 //
 
-#import <Mantle/MTLJSONAdapter.h>
-
 #import "FDCHomeTableViewController.h"
-#import "FDCSessionManager.h"
+#import <Mantle/MTLJSONAdapter.h>
 #import "FDCSessionManager+Shots.h"
+#import "FDCDribbbleTableViewCell.h"
+#import "FDCConstants.h"
+#import "UIImageView+AFNetworking.h"
 
 @interface FDCHomeTableViewController ()
 
@@ -18,48 +19,66 @@
 
 @implementation FDCHomeTableViewController
 
-
--(void) testRequest
+- (void)doRequest
 {
-    FDCSessionManager *session = [FDCSessionManager sharedManager];
-    [session getShotsOnPage:@1 success:^(id responseModel) {
-        NSLog(@"%@", responseModel);
+    [[FDCSessionManager sharedManager] getShotsOnPage:@1 success:^(NSArray *responseModel) {
+        shots = [NSMutableArray arrayWithArray:responseModel];
+        
+        [self.tableView reloadData];
     } failure:^(NSError *error) {
-        NSLog(@"%@", [error localizedDescription]);
+        [self showAlertMessage:error.localizedDescription];
     }];
 }
 
-
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    [self testRequest];
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+- (void)registerNibForDribbbleCell {
+    [self.tableView registerNib:[UINib nibWithNibName:@"FDCDribbbleTableViewCell" bundle:nil] forCellReuseIdentifier:kDribbbleCellIdentifier];
 }
+
+- (void)showAlertMessage:(NSString *)message {
+    UIAlertAction *continueAction = [UIAlertAction actionWithTitle:@"continue" style:UIAlertActionStyleCancel handler:nil];
+    
+    UIAlertController *viewController = [UIAlertController alertControllerWithTitle:@"Dribbble Viewer" message:message preferredStyle:UIAlertControllerStyleAlert];
+    
+    [viewController addAction:continueAction];
+    
+    [self presentViewController:viewController animated:YES completion:nil];
+}
+
+#pragma mark - UIViewController methods
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
-#pragma mark - Table view data source
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+    [self registerNibForDribbbleCell];
+    [self doRequest];
+}
+
+#pragma mark - UITableViewDataSource methods
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return shots.count;
 }
 
-/*
- - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
- UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
- 
- // Configure the cell...
- 
- return cell;
- }
- */
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 240;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    FDCDribbbleTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:kDribbbleCellIdentifier forIndexPath:indexPath];
+    
+    if (!cell) {
+        cell = [[FDCDribbbleTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:kDribbbleCellIdentifier];
+    }
+    
+    [cell setUpWithShotModel:[shots objectAtIndex:indexPath.row]];
+    
+    return cell;
+}
 
 /*
  // Override to support conditional editing of the table view.
