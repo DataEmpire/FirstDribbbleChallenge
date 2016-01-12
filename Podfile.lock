@@ -19,15 +19,20 @@ PODS:
   - Mantle (2.0.6):
     - Mantle/extobjc (= 2.0.6)
   - Mantle/extobjc (2.0.6)
+  - SDWebImage (3.7.4):
+    - SDWebImage/Core (= 3.7.4)
+  - SDWebImage/Core (3.7.4)
 
 DEPENDENCIES:
   - AFNetworking
   - bricks-Mantle
   - Mantle
+  - SDWebImage (~> 3.7)
 
 SPEC CHECKSUMS:
   AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
   bricks-Mantle: 164b915d059b0d8e9501f6e2fb479e0061401b61
   Mantle: 299966b00759634931699f69cb6a30b9239b944d
+  SDWebImage: 247edd7dd80dd6124197b0d6a17846fe9d1df968
 
 COCOAPODS: 0.39.0
