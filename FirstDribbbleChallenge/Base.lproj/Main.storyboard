@@ -41,7 +41,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ckb-Yb-hvE" userLabel="ShotContentView">
-                                <rect key="frame" x="0.0" y="69" width="320" height="222"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="227"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IGB-oa-eQ7">
@@ -82,7 +82,7 @@
                             <constraint firstItem="IGB-oa-eQ7" firstAttribute="top" secondItem="ckb-Yb-hvE" secondAttribute="bottom" constant="10" id="evK-ft-EJl"/>
                             <constraint firstItem="8Yw-gO-lBV" firstAttribute="leading" secondItem="0ed-j9-Ytr" secondAttribute="leading" constant="16" id="giK-GX-mbb"/>
                             <constraint firstItem="1yo-N0-xN6" firstAttribute="leading" secondItem="IGB-oa-eQ7" secondAttribute="trailing" constant="8" id="juu-mr-Q5n"/>
-                            <constraint firstItem="ckb-Yb-hvE" firstAttribute="top" secondItem="tbK-la-VSd" secondAttribute="bottom" constant="5" id="rho-28-Gqa"/>
+                            <constraint firstItem="ckb-Yb-hvE" firstAttribute="top" secondItem="tbK-la-VSd" secondAttribute="bottom" id="rho-28-Gqa"/>
                             <constraint firstAttribute="trailing" secondItem="ckb-Yb-hvE" secondAttribute="trailing" id="sBQ-Nf-flg"/>
                             <constraint firstItem="1yo-N0-xN6" firstAttribute="trailing" secondItem="0ed-j9-Ytr" secondAttribute="trailingMargin" id="spT-4Z-rYF"/>
                             <constraint firstItem="8Yw-gO-lBV" firstAttribute="top" secondItem="IGB-oa-eQ7" secondAttribute="bottom" constant="8" id="wdo-aj-ZSK"/>
