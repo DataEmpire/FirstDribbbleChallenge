@@ -16,8 +16,24 @@
 @implementation FDCDetailViewController
 
 - (NSString*)applyFontToHtmlString:(NSString *)html fontFamily:(NSString *)fontName fontSize:(CGFloat)fontSize {
+    if (!html) {
+        return nil;
+    }
+    
     return [NSString stringWithFormat:@"<span style=\"font-family: '%@'; font-size: %i; font-weight: %@;\">%@</span>",
             fontName, (int)fontSize, @"lighter", html];
+}
+
+#pragma mark - UIWebViewDelegate methods
+
+- (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType {
+    if (navigationType == UIWebViewNavigationTypeLinkClicked) {
+        [[UIApplication sharedApplication] openURL:request.URL];
+        
+        return NO;
+    }
+    
+    return YES;
 }
 
 #pragma mark - UIViewController methods
