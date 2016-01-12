@@ -20,19 +20,18 @@
 
 @implementation FDCHomeTableViewController
 
+/*! @brief Controls what page for Dribbble API I am working. */
 static int currentPage = 0;
-static BOOL isLoadingMore = NO;
+
+/*! @brief The loading flag, when its value is YES new requests for getShotsOnPage are not finished. */
+static BOOL isLoading = NO;
 
 - (void)doRequest
 {
-    if (!isLoadingMore) {
-        isLoadingMore = YES;
+    if (!isLoading) {
+        isLoading = YES;
         
-        if (!currentPage) {
-            currentPage = 1;
-        } else {
-            currentPage++;
-        }
+        currentPage++;
         
         [[FDCSessionManager sharedManager] getShotsOnPage:[NSNumber numberWithInteger:currentPage] success:^(NSArray *responseModel) {
             if (shots) {
@@ -43,11 +42,11 @@ static BOOL isLoadingMore = NO;
             
             [self.tableView reloadData];
             
-            isLoadingMore = NO;
+            isLoading = NO;
         } failure:^(NSError *error) {
             [self showAlertMessage:error.localizedDescription];
             
-            isLoadingMore = NO;
+            isLoading = NO;
         }];
     }
 }
@@ -94,12 +93,11 @@ static BOOL isLoadingMore = NO;
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
     CGFloat yCurrent = scrollView.contentOffset.y;
-    CGFloat currentHeight = scrollView.contentSize.height - (scrollView.bounds.size.height + 300);
+    CGFloat currentHeight = scrollView.contentSize.height - (scrollView.bounds.size.height + 480);
     
     if ((yCurrent > 0) && (yCurrent > currentHeight)) {
         [self doRequest];
     }
-    
 }
 
 #pragma mark - UITableViewDelegate methods
