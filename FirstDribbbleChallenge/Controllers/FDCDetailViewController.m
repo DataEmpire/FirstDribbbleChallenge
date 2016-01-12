@@ -34,7 +34,12 @@
         [_authorImageView setImageWithURL:[NSURL URLWithString:_shotToShow.user.avatarUrl]];
         _authorNameLabel.text = _shotToShow.user.name;
         
-        [_shotDescriptionWebView loadHTMLString:_shotToShow.shotDescription baseURL:nil];
+        UIFont *systemFont = _shotDescriptionLabel.font;
+        
+        NSString *htmlWithFixedFont = [NSString stringWithFormat:@"<span style=\"font-family: '%@'; font-size: %i; font-weight: %@;\">%@</span>",
+                                       @"Helvetica", (int)systemFont.pointSize, @"lighter", _shotToShow.shotDescription];
+        
+        [_shotDescriptionWebView loadHTMLString:htmlWithFixedFont baseURL:nil];
     }
 }
 
