@@ -15,6 +15,11 @@
 
 @implementation FDCDetailViewController
 
+- (NSString*)applyFontToHtmlString:(NSString *)html fontFamily:(NSString *)fontName fontSize:(CGFloat)fontSize {
+    return [NSString stringWithFormat:@"<span style=\"font-family: '%@'; font-size: %i; font-weight: %@;\">%@</span>",
+            fontName, (int)fontSize, @"lighter", html];
+}
+
 #pragma mark - UIViewController methods
 
 - (void)didReceiveMemoryWarning {
@@ -34,10 +39,7 @@
         [_authorImageView setImageWithURL:[NSURL URLWithString:_shotToShow.user.avatarUrl]];
         _authorNameLabel.text = _shotToShow.user.name;
         
-        UIFont *systemFont = _shotDescriptionLabel.font;
-        
-        NSString *htmlWithFixedFont = [NSString stringWithFormat:@"<span style=\"font-family: '%@'; font-size: %i; font-weight: %@;\">%@</span>",
-                                       @"Helvetica", (int)systemFont.pointSize, @"lighter", _shotToShow.shotDescription];
+        NSString *htmlWithFixedFont = [self applyFontToHtmlString:_shotToShow.shotDescription fontFamily:@"Helvetica" fontSize:18];
         
         [_shotDescriptionWebView loadHTMLString:htmlWithFixedFont baseURL:nil];
     }
