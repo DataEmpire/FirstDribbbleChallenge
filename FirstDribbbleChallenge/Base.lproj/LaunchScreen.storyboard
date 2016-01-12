@@ -14,14 +14,29 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SpaceBackground" translatesAutoresizingMaskIntoConstraints="NO" id="B2D-QN-iFM">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="B2D-QN-iFM" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="F51-wL-i5e"/>
+                            <constraint firstAttribute="trailing" secondItem="B2D-QN-iFM" secondAttribute="trailing" id="L6d-V1-hSE"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="B2D-QN-iFM" secondAttribute="bottom" id="VeU-q1-JDk"/>
+                            <constraint firstItem="B2D-QN-iFM" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="bXM-KI-Kll"/>
+                        </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="SpaceBackground" width="1653" height="1653"/>
+    </resources>
 </document>

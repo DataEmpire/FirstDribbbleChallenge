@@ -25,3 +25,5 @@ extern NSString *const kShotsEndPoint;
 
 /*! @object The cell unique identifier for Dribbble item. */
 extern NSString *const kDribbbleCellIdentifier;
+
+extern NSString *const kHomeToDetailSegue;

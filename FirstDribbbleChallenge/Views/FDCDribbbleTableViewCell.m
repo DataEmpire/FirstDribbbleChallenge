@@ -22,15 +22,13 @@
 }
 
 - (void)setUpWithShotModel:(FDCShot *)shot {
-    shotDetails = shot;
+    NSURL *teaserImageUrl = [NSURL URLWithString:shot.imageUrls.teaser];
     
-    NSURL *teaserImageUrl = [NSURL URLWithString:shotDetails.imageUrls.teaser];
+    [_shotImageView setImageWithURL:teaserImageUrl];
     
-    [self.shotImageView setImageWithURL:teaserImageUrl];
+    _shotDescriptionLabel.text = shot.title;
     
-    self.shotDescriptionLabel.text = shotDetails.title;
-    
-    self.viewsCountLabel.text = [NSString stringWithFormat:@"%lu", [shotDetails.likesCount unsignedIntegerValue]];
+    _viewsCountLabel.text = [NSString stringWithFormat:@"%lu", [shot.likesCount unsignedIntegerValue]];
 }
 
 @end

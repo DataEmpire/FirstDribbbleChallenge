@@ -19,3 +19,5 @@ NSString *const kDribbleBaseURL = @"https://api.dribbble.com";
 NSString *const kShotsEndPoint = @"v%@/shots/";
 
 NSString *const kDribbbleCellIdentifier = @"FDCDribbbleTableViewCell";
+
+NSString *const kHomeToDetailSegue = @"FDCDetailViewControllerSegue";

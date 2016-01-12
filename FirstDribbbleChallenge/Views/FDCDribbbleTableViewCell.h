@@ -10,9 +10,7 @@
 #import "FDCShot.h"
 
 /*! @brief The code-behind class for a dribbble shot item. */
-@interface FDCDribbbleTableViewCell : UITableViewCell {
-    FDCShot *shotDetails;
-}
+@interface FDCDribbbleTableViewCell : UITableViewCell
 
 @property (weak, nonatomic) IBOutlet UIImageView *shotImageView;
 

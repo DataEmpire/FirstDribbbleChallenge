@@ -23,7 +23,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    if (_shotToShow) {
+        self.title = _shotToShow.title;
+    }
 }
 
 @end
