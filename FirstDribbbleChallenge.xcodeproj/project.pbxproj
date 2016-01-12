@@ -25,6 +25,8 @@
 		A54637381C43EFB20077A0E2 /* FDCImageUrls.m in Sources */ = {isa = PBXBuildFile; fileRef = A54637371C43EFB20077A0E2 /* FDCImageUrls.m */; };
 		A546373B1C43F0E40077A0E2 /* FDCShot.m in Sources */ = {isa = PBXBuildFile; fileRef = A546373A1C43F0E40077A0E2 /* FDCShot.m */; };
 		A546373E1C44046D0077A0E2 /* FDCShotsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A546373D1C44046D0077A0E2 /* FDCShotsResponse.m */; };
+		A5B444391C45591000AB2CF8 /* FDCShotUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B444381C45591000AB2CF8 /* FDCShotUIView.m */; };
+		A5B4443B1C45592D00AB2CF8 /* FDCShotUIView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5B4443A1C45592D00AB2CF8 /* FDCShotUIView.xib */; };
 		D8F3CC3F87508CB597CEC7F7 /* libPods-FirstDribbbleChallenge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E0C98130E07B3FA6DF8A0B /* libPods-FirstDribbbleChallenge.a */; };
 /* End PBXBuildFile section */
 
@@ -76,6 +78,9 @@
 		A546373A1C43F0E40077A0E2 /* FDCShot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FDCShot.m; path = FirstDribbbleChallenge/FDCShot.m; sourceTree = SOURCE_ROOT; };
 		A546373C1C44046D0077A0E2 /* FDCShotsResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FDCShotsResponse.h; path = FirstDribbbleChallenge/FDCShotsResponse.h; sourceTree = SOURCE_ROOT; };
 		A546373D1C44046D0077A0E2 /* FDCShotsResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FDCShotsResponse.m; path = FirstDribbbleChallenge/FDCShotsResponse.m; sourceTree = SOURCE_ROOT; };
+		A5B444371C45591000AB2CF8 /* FDCShotUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDCShotUIView.h; sourceTree = "<group>"; };
+		A5B444381C45591000AB2CF8 /* FDCShotUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDCShotUIView.m; sourceTree = "<group>"; };
+		A5B4443A1C45592D00AB2CF8 /* FDCShotUIView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FDCShotUIView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +193,9 @@
 				53AB85F91C43E0EF00D83036 /* FDCDribbbleTableViewCell.h */,
 				53AB85FA1C43E0EF00D83036 /* FDCDribbbleTableViewCell.m */,
 				53AB85FB1C43E0EF00D83036 /* FDCDribbbleTableViewCell.xib */,
+				A5B444371C45591000AB2CF8 /* FDCShotUIView.h */,
+				A5B444381C45591000AB2CF8 /* FDCShotUIView.m */,
+				A5B4443A1C45592D00AB2CF8 /* FDCShotUIView.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -314,6 +322,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5B4443B1C45592D00AB2CF8 /* FDCShotUIView.xib in Resources */,
 				53AB85DB1C43DA1E00D83036 /* LaunchScreen.storyboard in Resources */,
 				53AB85D81C43DA1E00D83036 /* Assets.xcassets in Resources */,
 				53AB85D61C43DA1E00D83036 /* Main.storyboard in Resources */,
@@ -389,6 +398,7 @@
 				A54637351C43EC5F0077A0E2 /* FDCLinks.m in Sources */,
 				53AB85D01C43DA1E00D83036 /* FDCAppDelegate.m in Sources */,
 				53AB86081C43E6BC00D83036 /* FDCSessionManager+Shots.m in Sources */,
+				A5B444391C45591000AB2CF8 /* FDCShotUIView.m in Sources */,
 				53AB85CD1C43DA1E00D83036 /* main.m in Sources */,
 				53AB85F41C43DD3400D83036 /* FDCConstants.m in Sources */,
 				53AB85FC1C43E0EF00D83036 /* FDCDribbbleTableViewCell.m in Sources */,

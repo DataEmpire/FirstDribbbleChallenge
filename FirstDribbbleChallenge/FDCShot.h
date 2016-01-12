@@ -45,4 +45,7 @@
 @property (nonatomic, strong) FDCImageUrls *imageUrls;
 @property (nonatomic, strong) NSArray *tags;
 
+
+- (NSString *) getImageURL;
+
 @end

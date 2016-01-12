@@ -8,15 +8,18 @@
 
 #import <UIKit/UIKit.h>
 #import "FDCShot.h"
-
+#import "FDCShotUIView.h"
 /*! @brief The code-behind class for a dribbble shot item. */
 @interface FDCDribbbleTableViewCell : UITableViewCell
 
-@property (weak, nonatomic) IBOutlet UIImageView *shotImageView;
+//@property (weak, nonatomic) IBOutlet UIImageView *shotImageView;
+//
+//@property (weak, nonatomic) IBOutlet UILabel *shotDescriptionLabel;
+//
+//@property (weak, nonatomic) IBOutlet UILabel *viewsCountLabel;
+//@property (strong, nonatomic) UIActivityIndicatorView *activityIndicator;
 
-@property (weak, nonatomic) IBOutlet UILabel *shotDescriptionLabel;
-
-@property (weak, nonatomic) IBOutlet UILabel *viewsCountLabel;
+@property (strong, nonatomic) FDCShotUIView *shotUIView;
 
 - (void)setUpWithShotModel:(FDCShot *)shot;
 
