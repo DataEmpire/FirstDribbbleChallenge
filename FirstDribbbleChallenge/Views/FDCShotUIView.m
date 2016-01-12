@@ -19,20 +19,6 @@
  }
  */
 
-- (instancetype)initWithCoder:(NSCoder *)coder
-{
-    self = [super initWithCoder:coder];
-    if (self) {
-        
-    }
-    return self;
-}
-
--(void)prepareForInterfaceBuilder {
-    [super prepareForInterfaceBuilder];
-    self.backgroundColor = [UIColor redColor];
-}
-
 -(void)awakeFromNib
 {
     [super awakeFromNib];
@@ -64,6 +50,30 @@
     
     return (FDCShotUIView *) [[[NSBundle mainBundle] loadNibNamed:NSStringFromClass([FDCShotUIView class]) owner:nil options:0] firstObject];
     
+}
+
+
+- (NSLayoutConstraint *)pin:(id)item attribute:(NSLayoutAttribute)attribute parent:(UIView *) uiComponent
+{
+    return [NSLayoutConstraint constraintWithItem:uiComponent
+                                        attribute:attribute
+                                        relatedBy:NSLayoutRelationEqual
+                                           toItem:item
+                                        attribute:attribute
+                                       multiplier:1.0
+                                         constant:0.0];
+}
+
+
+/*@! @brief This method attachs the FDCShotUIView uiComponent*/
+- (void)constraintTo:(UIView *) uiComponent {
+    
+    self.translatesAutoresizingMaskIntoConstraints = NO;
+    
+    [uiComponent addConstraint:[self pin:self  attribute:NSLayoutAttributeTop parent:uiComponent]];
+    [uiComponent addConstraint:[self pin:self  attribute:NSLayoutAttributeLeft parent:uiComponent]];
+    [uiComponent addConstraint:[self pin:self  attribute:NSLayoutAttributeBottom parent:uiComponent]];
+    [uiComponent addConstraint:[self pin:self  attribute:NSLayoutAttributeRight parent:uiComponent]];
 }
 
 @end

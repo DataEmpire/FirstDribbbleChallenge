@@ -9,8 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "FDCShot.h"
 
-
-IB_DESIGNABLE
 @interface FDCShotUIView : UIView
 
 @property (nonatomic) IBOutlet UIImageView *shotImageView;
@@ -24,5 +22,6 @@ IB_DESIGNABLE
 
 + (FDCShotUIView *)initWithNibClassName;
 - (void)setUpWithShotModel:(FDCShot *)shot;
+- (void)constraintTo:(UIView *) uiComponent;
 
 @end

@@ -49,8 +49,19 @@
     if (_shotToShow) {
         self.title = _shotToShow.title;
         
-        [_shotImageView setImageWithURL:[NSURL URLWithString:_shotToShow.imageUrls.hidpi]];
-        _shotDescriptionLabel.text = _shotToShow.title;
+        
+        //Creating a UI Shot view for display on the screen
+        self.shotUIView = [FDCShotUIView initWithNibClassName];
+        
+        //Set the information about the shot for diplay
+        [self.shotUIView setUpWithShotModel:self.shotToShow];
+        
+        //Add the shotUIView as subview of shotContentView
+        [self.shotContentView addSubview:self.shotUIView];
+        
+        //Make the shotUIView constraint to shotContentView and get the same size
+        [self.shotUIView constraintTo:self.shotContentView];
+        
         _likesCountLabel.text = [NSString stringWithFormat:@"%lu", [_shotToShow.likesCount unsignedIntegerValue]];
         [_authorImageView setImageWithURL:[NSURL URLWithString:_shotToShow.user.avatarUrl]];
         _authorNameLabel.text = _shotToShow.user.name;

@@ -15,7 +15,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "35"
             endingLineNumber = "35"
-            landmarkName = "-registerNibForDribbbleCell"
+            landmarkName = "-doRequest"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -108,11 +108,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FirstDribbbleChallenge/Views/FDCDribbbleTableViewCell.m"
-            timestampString = "474313683.647128"
+            timestampString = "474320523.492575"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "61"
-            endingLineNumber = "61"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
             landmarkName = "-awakeFromNib"
             landmarkType = "5">
          </BreakpointContent>
@@ -124,11 +124,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FirstDribbbleChallenge/Views/FDCShotUIView.m"
-            timestampString = "474315740.655214"
+            timestampString = "474318393.222364"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
             landmarkName = "-setUpWithShotModel:"
             landmarkType = "5">
          </BreakpointContent>
@@ -140,11 +140,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FirstDribbbleChallenge/Views/FDCShotUIView.m"
-            timestampString = "474315740.655214"
+            timestampString = "474318393.222364"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
             landmarkName = "-setUpWithShotModel:"
             landmarkType = "5">
          </BreakpointContent>
@@ -156,11 +156,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FirstDribbbleChallenge/Views/FDCShotUIView.m"
-            timestampString = "474316876.771406"
+            timestampString = "474318393.222364"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "65"
-            endingLineNumber = "65"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
             landmarkName = "+initWithNibClassName"
             landmarkType = "5">
          </BreakpointContent>

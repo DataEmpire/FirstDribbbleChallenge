@@ -49,15 +49,16 @@
 
 
 - (void)awakeFromNib {
-    self.shotUIView = [FDCShotUIView initWithNibName];
+    self.shotUIView = [FDCShotUIView initWithNibClassName];
     
     [self addSubview:self.shotUIView];
-    self.shotUIView .translatesAutoresizingMaskIntoConstraints = NO;
-    [self addConstraint:[self pin:self.shotUIView  attribute:NSLayoutAttributeTop]];
-    [self addConstraint:[self pin:self.shotUIView  attribute:NSLayoutAttributeLeft]];
-    [self addConstraint:[self pin:self.shotUIView  attribute:NSLayoutAttributeBottom]];
-    [self addConstraint:[self pin:self.shotUIView  attribute:NSLayoutAttributeRight]];
-    
+    [self.shotUIView constraintTo:self];
+    //    self.shotUIView .translatesAutoresizingMaskIntoConstraints = NO;
+    //    [self addConstraint:[self pin:self.shotUIView  attribute:NSLayoutAttributeTop]];
+    //    [self addConstraint:[self pin:self.shotUIView  attribute:NSLayoutAttributeLeft]];
+    //    [self addConstraint:[self pin:self.shotUIView  attribute:NSLayoutAttributeBottom]];
+    //    [self addConstraint:[self pin:self.shotUIView  attribute:NSLayoutAttributeRight]];
+    //    
     NSLog(@"%@",self.shotUIView);
 }
 
