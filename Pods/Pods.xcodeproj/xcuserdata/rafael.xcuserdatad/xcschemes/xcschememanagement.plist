@@ -8,26 +8,41 @@
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>1</integer>
 		</dict>
 		<key>Mantle.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>4</integer>
 		</dict>
 		<key>Pods-FirstDribbbleChallenge.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>SDWebImage.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
 		</dict>
 		<key>bricks-Mantle-bricks-Mantle.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>3</integer>
 		</dict>
 		<key>bricks-Mantle.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -38,6 +53,16 @@
 			<true/>
 		</dict>
 		<key>4C021AB5A97488D4DD4E1A7971896FB9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>86BCF7005F8EEC750C7835AB39095174</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>90904B9999590F25D4F66A17F053EDB2</key>
 		<dict>
 			<key>primary</key>
 			<true/>

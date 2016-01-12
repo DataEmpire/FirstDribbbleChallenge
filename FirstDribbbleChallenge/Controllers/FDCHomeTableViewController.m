@@ -20,15 +20,36 @@
 
 @implementation FDCHomeTableViewController
 
+static int currentPage = 0;
+static BOOL isLoadingMore = NO;
+
 - (void)doRequest
 {
-    [[FDCSessionManager sharedManager] getShotsOnPage:@1 success:^(NSArray *responseModel) {
-        shots = [NSMutableArray arrayWithArray:responseModel];
+    if (!isLoadingMore) {
+        isLoadingMore = YES;
         
-        [self.tableView reloadData];
-    } failure:^(NSError *error) {
-        [self showAlertMessage:error.localizedDescription];
-    }];
+        if (!currentPage) {
+            currentPage = 1;
+        } else {
+            currentPage++;
+        }
+        
+        [[FDCSessionManager sharedManager] getShotsOnPage:[NSNumber numberWithInteger:currentPage] success:^(NSArray *responseModel) {
+            if (shots) {
+                [shots addObjectsFromArray:responseModel];
+            } else {
+                shots = [NSMutableArray arrayWithArray:responseModel];
+            }
+            
+            [self.tableView reloadData];
+            
+            isLoadingMore = NO;
+        } failure:^(NSError *error) {
+            [self showAlertMessage:error.localizedDescription];
+            
+            isLoadingMore = NO;
+        }];
+    }
 }
 
 - (void)registerNibForDribbbleCell {
@@ -69,6 +90,16 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return shots.count;
+}
+
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
+    CGFloat yCurrent = scrollView.contentOffset.y;
+    CGFloat currentHeight = scrollView.contentSize.height - (scrollView.bounds.size.height + 300);
+    
+    if ((yCurrent > 0) && (yCurrent > currentHeight)) {
+        [self doRequest];
+    }
+    
 }
 
 #pragma mark - UITableViewDelegate methods
