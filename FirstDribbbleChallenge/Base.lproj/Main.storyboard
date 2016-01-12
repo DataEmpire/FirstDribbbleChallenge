@@ -41,13 +41,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ckb-Yb-hvE">
-                                <rect key="frame" x="16" y="74" width="288" height="205"/>
+                                <rect key="frame" x="16" y="74" width="288" height="217"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BJJ-02-tKa">
-                                        <rect key="frame" x="0.0" y="0.0" width="288" height="205"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="288" height="217"/>
                                     </imageView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="woL-GH-jZC">
-                                        <rect key="frame" x="0.0" y="165" width="288" height="40"/>
+                                        <rect key="frame" x="0.0" y="177" width="288" height="40"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shot description" textAlignment="natural" lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3aX-Ek-mBE">
                                                 <rect key="frame" x="10" y="10" width="133" height="20"/>
@@ -86,7 +86,7 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="205" id="1jg-52-ctC"/>
+                                    <constraint firstAttribute="height" constant="217" id="1jg-52-ctC"/>
                                     <constraint firstAttribute="bottom" secondItem="BJJ-02-tKa" secondAttribute="bottom" id="7Ie-L1-guN"/>
                                     <constraint firstItem="woL-GH-jZC" firstAttribute="leading" secondItem="ckb-Yb-hvE" secondAttribute="leading" id="DYr-f1-eXV"/>
                                     <constraint firstAttribute="trailing" secondItem="BJJ-02-tKa" secondAttribute="trailing" id="Did-km-52b"/>
@@ -97,20 +97,20 @@
                                 </constraints>
                             </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IGB-oa-eQ7">
-                                <rect key="frame" x="16" y="289" width="50" height="50"/>
+                                <rect key="frame" x="16" y="301" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="BOK-UN-9hO"/>
                                     <constraint firstAttribute="height" constant="50" id="Tmg-hB-1Tu"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Author shot" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1yo-N0-xN6">
-                                <rect key="frame" x="74" y="287" width="230" height="52"/>
+                                <rect key="frame" x="74" y="299" width="230" height="52"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Yw-gO-lBV">
-                                <rect key="frame" x="16" y="347" width="288" height="213"/>
+                                <rect key="frame" x="16" y="359" width="288" height="201"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
                             </webView>
                         </subviews>
@@ -133,6 +133,14 @@
                             <constraint firstItem="8Yw-gO-lBV" firstAttribute="top" secondItem="IGB-oa-eQ7" secondAttribute="bottom" constant="8" id="wdo-aj-ZSK"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="authorImageView" destination="IGB-oa-eQ7" id="N4Y-dQ-nka"/>
+                        <outlet property="authorNameLabel" destination="1yo-N0-xN6" id="SuO-46-oza"/>
+                        <outlet property="likesCountLabel" destination="VZw-YM-NXo" id="doJ-B7-Ssv"/>
+                        <outlet property="shotDescriptionLabel" destination="3aX-Ek-mBE" id="ZY3-za-d3H"/>
+                        <outlet property="shotDescriptionWebView" destination="8Yw-gO-lBV" id="jyN-jO-siX"/>
+                        <outlet property="shotImageView" destination="BJJ-02-tKa" id="J9A-K3-7GL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cNH-T0-UWx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

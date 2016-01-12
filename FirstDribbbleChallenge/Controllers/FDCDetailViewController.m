@@ -7,6 +7,7 @@
 //
 
 #import "FDCDetailViewController.h"
+#import "UIImageView+AFNetworking.h"
 
 @interface FDCDetailViewController ()
 
@@ -26,6 +27,14 @@
     
     if (_shotToShow) {
         self.title = _shotToShow.title;
+        
+        [_shotImageView setImageWithURL:[NSURL URLWithString:_shotToShow.imageUrls.hidpi]];
+        _shotDescriptionLabel.text = _shotToShow.title;
+        _likesCountLabel.text = [NSString stringWithFormat:@"%lu", [_shotToShow.likesCount unsignedIntegerValue]];
+        [_authorImageView setImageWithURL:[NSURL URLWithString:_shotToShow.user.avatarUrl]];
+        _authorNameLabel.text = _shotToShow.user.name;
+        
+        [_shotDescriptionWebView loadHTMLString:_shotToShow.shotDescription baseURL:nil];
     }
 }
 
