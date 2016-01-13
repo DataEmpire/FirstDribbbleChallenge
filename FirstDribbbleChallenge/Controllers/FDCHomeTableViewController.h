@@ -7,16 +7,23 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Bricks.h>
+#import "FDCTableViewDataSource.h"
 #import "FDCShot.h"
 
 /*! @brief The table view with the list from Dribbble. */
 @interface FDCHomeTableViewController : UITableViewController
 {
-    /*! @brief The shots that will be showed. */
-    NSMutableArray *shots;
     
-    /*! @brief The shot that we will show the details on the next page. */
-    FDCShot *shotToDetail;
+    FDCTableViewDataSource *_dataViewSource;
+    //    /*! @brief The shots that will be showed. */
+    //    NSMutableArray *_shots;
+    //    
+    //    /*! @brief The shot that we will show the details on the next page. */
+    //    FDCShot *_shotToDetail;
+    //    
 }
+
+- (void)showAlertMessage:(NSString *)message;
 
 @end

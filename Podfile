@@ -8,6 +8,7 @@ pod 'AFNetworking'
 pod 'Mantle'
 pod 'bricks-Mantle'
 pod 'SDWebImage', '~>3.7'
+pod "Bricks"
 end
 
 target 'FirstDribbbleChallengeTests' do

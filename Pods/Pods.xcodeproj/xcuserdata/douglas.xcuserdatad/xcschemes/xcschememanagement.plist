@@ -9,6 +9,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Bricks-Bricks.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Bricks.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Mantle.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -37,7 +47,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>0B38A9AD07F0579844265B380949575C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>279789F1D6ED171CD17E680EECB6B976</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>27EAB41948E361D929A20E060B578736</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -47,22 +67,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>86BCF7005F8EEC750C7835AB39095174</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>90904B9999590F25D4F66A17F053EDB2</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>928353533005A4198EBDA5B700D37B64</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>D61E9305B9459BC423C957108EC65894</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>E1731BCF5DED4613C6D8C39BACE8D2E9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E7239ECBF597DA001E26215A1319CF59</key>
 		<dict>
 			<key>primary</key>
 			<true/>

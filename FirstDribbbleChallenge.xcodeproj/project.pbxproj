@@ -24,6 +24,7 @@
 		A54637351C43EC5F0077A0E2 /* FDCLinks.m in Sources */ = {isa = PBXBuildFile; fileRef = A54637341C43EC5F0077A0E2 /* FDCLinks.m */; };
 		A54637381C43EFB20077A0E2 /* FDCImageUrls.m in Sources */ = {isa = PBXBuildFile; fileRef = A54637371C43EFB20077A0E2 /* FDCImageUrls.m */; };
 		A546373B1C43F0E40077A0E2 /* FDCShot.m in Sources */ = {isa = PBXBuildFile; fileRef = A546373A1C43F0E40077A0E2 /* FDCShot.m */; };
+		A596BBB61C46ED7D0046A7F9 /* FDCTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A596BBB51C46ED7D0046A7F9 /* FDCTableViewDataSource.m */; };
 		A5B444391C45591000AB2CF8 /* FDCShotUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B444381C45591000AB2CF8 /* FDCShotUIView.m */; };
 		A5B4443B1C45592D00AB2CF8 /* FDCShotUIView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5B4443A1C45592D00AB2CF8 /* FDCShotUIView.xib */; };
 		A5DDA0C21C46B78C008EB202 /* FDCMantleBase.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DDA0C11C46B78C008EB202 /* FDCMantleBase.m */; };
@@ -76,6 +77,8 @@
 		A54637371C43EFB20077A0E2 /* FDCImageUrls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FDCImageUrls.m; path = FirstDribbbleChallenge/FDCImageUrls.m; sourceTree = SOURCE_ROOT; };
 		A54637391C43F0E40077A0E2 /* FDCShot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FDCShot.h; path = FirstDribbbleChallenge/FDCShot.h; sourceTree = SOURCE_ROOT; };
 		A546373A1C43F0E40077A0E2 /* FDCShot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FDCShot.m; path = FirstDribbbleChallenge/FDCShot.m; sourceTree = SOURCE_ROOT; };
+		A596BBB41C46ED7D0046A7F9 /* FDCTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDCTableViewDataSource.h; sourceTree = "<group>"; };
+		A596BBB51C46ED7D0046A7F9 /* FDCTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDCTableViewDataSource.m; sourceTree = "<group>"; };
 		A5B444371C45591000AB2CF8 /* FDCShotUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDCShotUIView.h; sourceTree = "<group>"; };
 		A5B444381C45591000AB2CF8 /* FDCShotUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDCShotUIView.m; sourceTree = "<group>"; };
 		A5B4443A1C45592D00AB2CF8 /* FDCShotUIView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FDCShotUIView.xib; sourceTree = "<group>"; };
@@ -175,6 +178,8 @@
 				53AB85D21C43DA1E00D83036 /* FDCDetailViewController.m */,
 				53AB85F51C43E02A00D83036 /* FDCHomeTableViewController.h */,
 				53AB85F61C43E02A00D83036 /* FDCHomeTableViewController.m */,
+				A596BBB41C46ED7D0046A7F9 /* FDCTableViewDataSource.h */,
+				A596BBB51C46ED7D0046A7F9 /* FDCTableViewDataSource.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -411,6 +416,7 @@
 				53AB85F41C43DD3400D83036 /* FDCConstants.m in Sources */,
 				53AB85FC1C43E0EF00D83036 /* FDCDribbbleTableViewCell.m in Sources */,
 				A5DDA0C21C46B78C008EB202 /* FDCMantleBase.m in Sources */,
+				A596BBB61C46ED7D0046A7F9 /* FDCTableViewDataSource.m in Sources */,
 				A54637381C43EFB20077A0E2 /* FDCImageUrls.m in Sources */,
 				A54637321C43E9AA0077A0E2 /* FDCUser.m in Sources */,
 				A546373B1C43F0E40077A0E2 /* FDCShot.m in Sources */,

@@ -12,6 +12,32 @@
 
 @implementation FDCDribbbleTableViewCell
 
+
++(CGFloat)cellHeightWithPadding:(CGFloat)padding{
+    return [self cellHeight] + padding;
+}
+
++(CGFloat)cellHeight{
+    return 240;
+}
+
++(NSString *)cellIdentifier{
+    NSString *identifier = NSStringFromClass(self.class);//FDCDribbbleTableViewCell
+    return identifier;
+}
+
+-(void)setup:(id)object{
+    
+}
+
++(void)registerForTableView:(UITableView*)tableview{
+    NSString *identifier = NSStringFromClass(self.class);
+    UINib *nib = [UINib nibWithNibName:identifier bundle:nil];
+    [tableview registerNib:nib forCellReuseIdentifier:[self cellIdentifier]];
+}
+
+
+
 - (NSLayoutConstraint *)pin:(id)item attribute:(NSLayoutAttribute)attribute
 {
     return [NSLayoutConstraint constraintWithItem:self

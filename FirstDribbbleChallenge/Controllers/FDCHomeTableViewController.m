@@ -21,43 +21,26 @@
 
 @implementation FDCHomeTableViewController
 
-/*! @brief Controls what page for Dribbble API I am working. */
-static int currentPage = 0;
+///*! @brief Controls what page for Dribbble API I am working. */
+//static int currentPage = 0;
+//
+///*! @brief The loading flag, when its value is YES new requests for getShotsOnPage are not finished. */
+//static BOOL isLoading = NO;
 
-/*! @brief The loading flag, when its value is YES new requests for getShotsOnPage are not finished. */
-static BOOL isLoading = NO;
-
-- (void)doRequest
-{
+-(instancetype)initWithCoder:(NSCoder *)aDecoder{
+    self = [super initWithCoder:aDecoder];
     
-    FDCShot *shot = [FDCShot new];
-    
-    
-    if (!isLoading) {
-        isLoading = YES;
+    if(self)
+    {
         
-        currentPage++;
-        
-        [[FDCSessionManager sharedManager] getShotsOnPage:[NSNumber numberWithInteger:currentPage] success:^(NSArray *responseModel) {
-            if (shots) {
-                [shots addObjectsFromArray:responseModel];
-            } else {
-                shots = [NSMutableArray arrayWithArray:responseModel];
-            }
-            
-            [self.tableView reloadData];
-            
-            isLoading = NO;
-        } failure:^(NSError *error) {
-            [self showAlertMessage:error.localizedDescription];
-            
-            isLoading = NO;
-        }];
     }
+    
+    return self;
 }
 
 - (void)registerNibForDribbbleCell {
-    [self.tableView registerNib:[UINib nibWithNibName:@"FDCDribbbleTableViewCell" bundle:nil] forCellReuseIdentifier:kDribbbleCellIdentifier];
+    _dataViewSource = [[FDCTableViewDataSource alloc] initWithModelContainer:self controller:self tableView:self.tableView];
+    [_dataViewSource getDribbleShots];
 }
 
 - (void)showAlertMessage:(NSString *)message {
@@ -75,25 +58,16 @@ static BOOL isLoading = NO;
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self registerNibForDribbbleCell];
-    [self doRequest];
 }
 
 #pragma mark - UITableViewDataSource methods
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    FDCDribbbleTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:kDribbbleCellIdentifier];
-    
-    if (!cell) {
-        cell = [[FDCDribbbleTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:kDribbbleCellIdentifier];
-    }
-    
-    [cell setUpWithShotModel:[shots objectAtIndex:indexPath.row]];
-    
-    return cell;
+    return [_dataViewSource tableView:tableView cellForRowAtIndexPath:indexPath];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return shots.count;
+    return [_dataViewSource tableView:tableView numberOfRowsInSection:section];
 }
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
@@ -101,7 +75,7 @@ static BOOL isLoading = NO;
     CGFloat currentHeight = scrollView.contentSize.height - (scrollView.bounds.size.height + 480);
     
     if ((yCurrent > 0) && (yCurrent > currentHeight)) {
-        [self doRequest];
+        [_dataViewSource getDribbleShots];
     }
 }
 
@@ -112,9 +86,7 @@ static BOOL isLoading = NO;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    shotToDetail = [shots objectAtIndex:indexPath.row];
-    
-    [self performSegueWithIdentifier:kHomeToDetailSegue sender:self];
+    [_dataViewSource tableView:tableView didSelectRowAtIndexPath:indexPath];
 }
 
 #pragma mark - Navigation
@@ -122,8 +94,7 @@ static BOOL isLoading = NO;
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if ([segue.identifier isEqualToString:kHomeToDetailSegue]) {
         FDCDetailViewController *detailController = (FDCDetailViewController *)segue.destinationViewController;
-        
-        detailController.shotToShow = shotToDetail;
+        detailController.shotToShow = _dataViewSource.selectedShot;
     }
 }
 
