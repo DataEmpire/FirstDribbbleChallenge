@@ -25,10 +25,10 @@
     
 }
 
+
 + (NSDictionary *)JSONKeyPathsByPropertyKey {
     return [NSDictionary mtl_identityPropertyMapWithModel:self.class];
 }
-
 
 + (NSDictionary *) JSONKeyPathsByPropertyKeyCamelCase {
     return nil;
