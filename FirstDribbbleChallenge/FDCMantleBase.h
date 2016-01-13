@@ -20,6 +20,9 @@
  -LowerCase
  -Underline separations
  -Same as Json file
+ 
+ The default scape is '_'
+ 
  */
 typedef enum : NSUInteger {
     CamelCaseProperty,
@@ -29,7 +32,7 @@ typedef enum : NSUInteger {
 } ClassePropertyType;
 
 @interface FDCMantleBase : MTLModel<MTLJSONSerializing>
-
+@property (nonatomic) NSString *scape;
 @property (nonatomic) ClassePropertyType propertiesType;
 
 - (instancetype)initWithClassPropertyType: (ClassePropertyType) type;

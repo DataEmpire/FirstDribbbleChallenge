@@ -15,7 +15,7 @@
     
     if(self)
     {
-        
+        self.scape = @"_";
     }
     
     return self;
