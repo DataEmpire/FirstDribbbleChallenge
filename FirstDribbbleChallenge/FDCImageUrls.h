@@ -6,9 +6,9 @@
 //  Copyright © 2016 Data Empire. All rights reserved.
 //
 
-#import <Mantle/Mantle.h>
+#import "FDCMantleBase.h"
 
-@interface FDCImageUrls : MTLModel<MTLJSONSerializing>
+@interface FDCImageUrls : FDCMantleBase
 
 #pragma mark - Model Strings
 

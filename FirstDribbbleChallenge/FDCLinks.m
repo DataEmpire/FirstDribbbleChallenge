@@ -10,12 +10,5 @@
 
 @implementation FDCLinks
 
-+(NSDictionary *)JSONKeyPathsByPropertyKey
-{
-    return @{
-             @"web":@"web",
-             @"twitter":@"twitter"
-             };
-}
 
 @end

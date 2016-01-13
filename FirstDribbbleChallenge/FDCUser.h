@@ -6,11 +6,10 @@
 //  Copyright © 2016 Data Empire. All rights reserved.
 //
 
-#import <Mantle/Mantle.h>
-#import <bricks-Mantle/BKMBaseMantleObj.h>
+#import "FDCMantleBase.h"
 #import "FDCLinks.h"
 
-@interface FDCUser : BKMBaseMantleObj
+@interface FDCUser : FDCMantleBase
 
 #pragma mark - Model BOOL
 @property (nonatomic) BOOL canUploadShot;

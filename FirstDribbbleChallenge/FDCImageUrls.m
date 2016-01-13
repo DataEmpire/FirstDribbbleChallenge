@@ -10,14 +10,4 @@
 
 @implementation FDCImageUrls
 
-+ (NSDictionary *)JSONKeyPathsByPropertyKey
-{
-    return @{
-             @"hidpi":@"hidpi",
-             @"normal":@"normal",
-             @"teaser":@"teaser"
-             };
-}
-
-
 @end

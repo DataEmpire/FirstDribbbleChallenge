@@ -6,9 +6,8 @@
 //  Copyright © 2016 Data Empire. All rights reserved.
 //
 
-#import <Mantle/Mantle.h>
-
-@interface FDCLinks : MTLModel<MTLJSONSerializing>
+#import "FDCMantleBase.h"
+@interface FDCLinks : FDCMantleBase
 
 @property (nonatomic, copy) NSString *web;
 @property (nonatomic, copy) NSString *twitter;
