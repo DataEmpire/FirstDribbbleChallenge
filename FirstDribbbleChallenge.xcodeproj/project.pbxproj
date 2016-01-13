@@ -134,7 +134,7 @@
 		53AB85CA1C43DA1E00D83036 /* FirstDribbbleChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				A5DDA0BF1C46B2B6008EB202 /* Adapters */,
+				A5DDA0BF1C46B2B6008EB202 /* Mantle */,
 				53AB85FF1C43E25E00D83036 /* Network */,
 				53AB85FE1C43E10600D83036 /* Models */,
 				53AB85F81C43E0A600D83036 /* Views */,
@@ -235,13 +235,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A5DDA0BF1C46B2B6008EB202 /* Adapters */ = {
+		A5DDA0BF1C46B2B6008EB202 /* Mantle */ = {
 			isa = PBXGroup;
 			children = (
 				A5DDA0C01C46B78C008EB202 /* FDCMantleBase.h */,
 				A5DDA0C11C46B78C008EB202 /* FDCMantleBase.m */,
 			);
-			name = Adapters;
+			name = Mantle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
