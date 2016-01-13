@@ -9,10 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <Mantle/Mantle.h>
 
-
-
-
-static NSString *const kPatternStringToConverter = @"(%@)$1";
+static NSString *const kPatternToReplacement = @"%@$1";
 
 typedef enum : NSUInteger {
     CamelCaseProperty,

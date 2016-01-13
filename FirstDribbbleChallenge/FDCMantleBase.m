@@ -21,10 +21,24 @@
     return self;
 }
 
-- (NSString *)convertPropertyClassToJSONProperty:(NSString *)propertyName toEscape:(NSString *)escapeString {
-    NSString *pattern = [NSString stringWithFormat:kPatternStringToConverter, escapeString];
+- (instancetype)init {
+    self = [super init];
     
-    return nil;
+    NSString *rafaTest = [self convertPropertyClassToJSONProperty:@"itsNameIsThisMan" toEscape:@"_"];
+    
+    return self;
+}
+
+- (NSString *)convertPropertyClassToJSONProperty:(NSString *)propertyName toEscape:(NSString *)escapeString {
+    NSString *replaceString = [NSString stringWithFormat:kPatternToReplacement, escapeString];
+    NSString *pattern = @"([A-Z])";
+    
+    NSError *errorOnRegex;
+    NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:pattern options:0 error:&errorOnRegex];
+    
+    NSString *modifiedString = [regex stringByReplacingMatchesInString:propertyName options:0 range:NSMakeRange(0, [propertyName length]) withTemplate:replaceString];
+    
+    return [modifiedString lowercaseString];
 }
 
 + (NSDictionary *)JSONKeyPathsByPropertyKey {

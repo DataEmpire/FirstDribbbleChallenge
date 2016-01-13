@@ -49,7 +49,6 @@
     if (_shotToShow) {
         self.title = _shotToShow.title;
         
-        
         //Creating a UI Shot view for display on the screen
         self.shotUIView = [FDCShotUIView initWithNibClassName];
         
