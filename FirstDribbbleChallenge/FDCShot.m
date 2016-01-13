@@ -11,6 +11,7 @@
 @implementation FDCShot
 
 + (NSDictionary *)JSONKeyPathsByPropertyKey {
+    
     return @{
              @"shotId": @"id",
              @"user": @"user",

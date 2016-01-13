@@ -7,9 +7,10 @@
 //
 
 #import <Mantle/Mantle.h>
+#import <bricks-Mantle/BKMBaseMantleObj.h>
 #import "FDCLinks.h"
 
-@interface FDCUser : MTLModel<MTLJSONSerializing>
+@interface FDCUser : BKMBaseMantleObj
 
 #pragma mark - Model BOOL
 @property (nonatomic) BOOL canUploadShot;
