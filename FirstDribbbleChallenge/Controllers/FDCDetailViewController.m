@@ -49,14 +49,6 @@
     if (_shotToShow) {
         self.title = _shotToShow.title;
         
-        NSDictionary *newDictonary = @{@"HEllo":@"MAN", @"123":@"333"};
-        
-        for(id key in newDictonary )
-        {
-            NSLog(@"%@", newDictonary[key]);
-        }
-        
-        
         //Creating a UI Shot view for display on the screen
         self.shotUIView = [FDCShotUIView initWithNibClassName];
         

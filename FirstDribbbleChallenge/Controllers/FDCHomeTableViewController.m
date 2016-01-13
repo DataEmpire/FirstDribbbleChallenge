@@ -13,6 +13,7 @@
 #import "FDCDetailViewController.h"
 #import "FDCDribbbleTableViewCell.h"
 #import "FDCConstants.h"
+#import "FDCMantleBase.h"
 
 @interface FDCHomeTableViewController ()
 
@@ -28,6 +29,8 @@ static BOOL isLoading = NO;
 
 - (void)doRequest
 {
+    [[FDCMantleBase alloc] init];
+    
     if (!isLoading) {
         isLoading = YES;
         
