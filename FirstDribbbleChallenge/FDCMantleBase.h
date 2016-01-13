@@ -10,9 +10,20 @@
 #import <Mantle/Mantle.h>
 
 
-/*@! 
- @summary 
- This class will map all public properties to a Dictionary where the 
+
+
+static NSString *const kPatternStringToConverter = @"(%@)$1";
+
+typedef enum : NSUInteger {
+    CamelCaseProperty,
+    LowerCase,
+    UnderLineSeparations,
+    Custom
+} ClassePropertyType;
+
+/*@!
+ @summary
+ This class will map all public properties to a Dictionary where the
  Mantle framework will get and make the bind between the properties and json values
  
  That will return 4 types of patterns
@@ -24,13 +35,6 @@
  The default scape is '_'
  
  */
-typedef enum : NSUInteger {
-    CamelCaseProperty,
-    LowerCase,
-    UnderLineSeparations,
-    Custom
-} ClassePropertyType;
-
 @interface FDCMantleBase : MTLModel<MTLJSONSerializing>
 @property (nonatomic) NSString *scape;
 @property (nonatomic) ClassePropertyType propertiesType;

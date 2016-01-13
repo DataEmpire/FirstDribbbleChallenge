@@ -21,6 +21,9 @@
     return self;
 }
 
+- (NSString *)convertPropertyClassToJSONProperty(NSString *)propertyName toEscape:(NSString *)escape {
+    
+}
 
 + (NSDictionary *)JSONKeyPathsByPropertyKey {
     return [NSDictionary mtl_identityPropertyMapWithModel:self.class];
