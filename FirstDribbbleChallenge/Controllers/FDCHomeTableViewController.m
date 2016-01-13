@@ -29,7 +29,9 @@ static BOOL isLoading = NO;
 
 - (void)doRequest
 {
-    [[FDCMantleBase alloc] init];
+    
+    FDCShot *shot = [FDCShot new];
+    
     
     if (!isLoading) {
         isLoading = YES;

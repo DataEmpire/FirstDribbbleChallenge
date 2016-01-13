@@ -10,14 +10,7 @@
 #import <Mantle/Mantle.h>
 
 static NSString *const kPatternToReplacement = @"%@$1";
-
-typedef enum : NSUInteger {
-    CamelCaseProperty,
-    LowerCase,
-    UnderLineSeparations,
-    Custom
-} ClassePropertyType;
-
+static NSString *const kDefaultScape = @"_";
 /*@!
  @summary
  This class will map all public properties to a Dictionary where the
@@ -30,15 +23,10 @@ typedef enum : NSUInteger {
  -Same as Json file
  
  The default scape is '_'
- 
  */
-static NSString const* kDefaultScape = @"_";
-
 @interface FDCMantleBase : MTLModel<MTLJSONSerializing>
 @property (nonatomic) NSString *scape;
-@property (nonatomic) ClassePropertyType propertiesType;
-
-- (instancetype)initWithClassPropertyType: (ClassePropertyType) type;
 - (instancetype)initWithJsonScapeProperty:(NSString *) escapeString;
++ (NSDictionary *)customJSONKeyPathsByPropertyKey;
 
 @end

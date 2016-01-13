@@ -9,8 +9,10 @@
 #import <Mantle/Mantle.h>
 #import "FDCUser.h"
 #import "FDCImageUrls.h"
+#import "FDCMantleBase.h"
 
-@interface FDCShot : MTLModel<MTLJSONSerializing>
+
+@interface FDCShot : FDCMantleBase
 
 #pragma mark - Model Boolean
 @property (nonatomic) BOOL animated;
@@ -42,7 +44,7 @@
 #pragma mark - Model Objects
 @property (nonatomic, strong) FDCUser *user;
 @property (nonatomic, strong) FDCUser *team;
-@property (nonatomic, strong) FDCImageUrls *imageUrls;
+@property (nonatomic, strong) FDCImageUrls *images;
 @property (nonatomic, strong) NSArray *tags;
 
 
