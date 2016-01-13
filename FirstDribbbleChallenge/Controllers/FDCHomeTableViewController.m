@@ -27,11 +27,20 @@
 ///*! @brief The loading flag, when its value is YES new requests for getShotsOnPage are not finished. */
 //static BOOL isLoading = NO;
 
+<<<<<<< HEAD
 -(instancetype)initWithCoder:(NSCoder *)aDecoder{
     self = [super initWithCoder:aDecoder];
     
     if(self)
     {
+=======
+- (void)doRequest
+{   
+    if (!isLoading) {
+        isLoading = YES;
+        
+        currentPage++;
+>>>>>>> 7658991c10a257502e9b883af2855a1a3b1365ba
         
     }
     
