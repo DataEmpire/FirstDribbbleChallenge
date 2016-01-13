@@ -28,11 +28,7 @@ static int currentPage = 0;
 static BOOL isLoading = NO;
 
 - (void)doRequest
-{
-    
-    FDCShot *shot = [FDCShot new];
-    
-    
+{   
     if (!isLoading) {
         isLoading = YES;
         

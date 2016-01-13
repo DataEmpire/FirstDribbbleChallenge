@@ -10,68 +10,67 @@
 
 @implementation FDCMantleBase
 
-+ (NSDictionary *)customJSONKeyPathsByPropertyKey {
-    return nil;
+#pragma mark - Static variables
+
+/*!
+ @brief The current scape character.
+ @remarks For default its value is '_'.
+ */
+static NSString *scapeCharacter;
+
+#pragma mark - Public methods
+
+- (instancetype) init {
+    return [self initWithJsonScapeProperty:kDefaultScape];
 }
 
+- (instancetype)initWithJsonScapeProperty:(NSString *)scape {
+    self = [super init];
+    
+    if(self){
+        scapeCharacter = scape;
+    }
+    
+    return self;
+}
 
-+(NSDictionary *)JSONKeyPathsByPropertyKey
-{
++ (NSDictionary *)customJSONKeyPathsByPropertyKey {
+    return [NSDictionary new];
+}
+
+#pragma mark - Private helpers methods
+
++ (NSDictionary *) convertDictionaryPropertiesToJsonProperties {
+    NSDictionary *mantleMap = [NSDictionary mtl_identityPropertyMapWithModel:[self class]];
     
+    NSMutableDictionary *customMantleMap = [NSMutableDictionary new];
     
-    return [self convertDictionaryPropertiesToJsonProperties];
+    [mantleMap enumerateKeysAndObjectsUsingBlock:^(id  _Nonnull key, id  _Nonnull obj, BOOL * _Nonnull stop) {
+        [customMantleMap setObject:[self convertPropertyClassToJSONProperty:key toEscape:scapeCharacter]forKey:key];
+    }];
+    
+    return [NSDictionary dictionaryWithDictionary:customMantleMap];
 }
 
 + (NSString *)convertPropertyClassToJSONProperty:(NSString *)propertyName toEscape:(NSString *)escapeString {
     NSString *replaceString = [NSString stringWithFormat:kPatternToReplacement, escapeString];
-    NSString *pattern = @"([A-Z])";
     
-    NSError *errorOnRegex;
-    NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:pattern options:0 error:&errorOnRegex];
+    NSError *errorsOnRegex;
+    NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:kRegexPattern options:0 error:&errorsOnRegex];
     
-    NSDictionary *customDictionary = [self customJSONKeyPathsByPropertyKey];
+    NSString *modifiedString = [[self customJSONKeyPathsByPropertyKey] objectForKey:propertyName];
     
-    NSString *modifiedString = [regex stringByReplacingMatchesInString:propertyName options:0 range:NSMakeRange(0, [propertyName length]) withTemplate:replaceString];
-    
-    if (customDictionary) {
-        NSString *customJSONProperty = [customDictionary objectForKey:propertyName];
-        if (customJSONProperty) {
-            modifiedString = customJSONProperty;
-        }
+    if (!modifiedString) {
+        modifiedString = [regex stringByReplacingMatchesInString:propertyName options:0 range:NSMakeRange(0, [propertyName length]) withTemplate:replaceString];
     }
     
     return [modifiedString lowercaseString];
 }
 
-+ (NSDictionary *) convertDictionaryPropertiesToJsonProperties
-{
-    return [self convertDictionaryPropertiesToJsonProperties:[NSDictionary mtl_identityPropertyMapWithModel:self.class] toEscape:kDefaultScape];
-}
+#pragma mark - MTLJSONSerializing
 
-+ (NSDictionary *) convertDictionaryPropertiesToJsonProperties: (NSDictionary *) baseDictionary toEscape:(NSString *) escapeSting
-{
-    NSMutableDictionary *newDictonary = [NSMutableDictionary new];
-    
-    [baseDictionary enumerateKeysAndObjectsUsingBlock:^(id  _Nonnull key, id  _Nonnull obj, BOOL * _Nonnull stop) {
-        [newDictonary setObject:[self convertPropertyClassToJSONProperty:key toEscape:escapeSting]forKey:key];
-    }];
-    
-    NSLog(@"%@", newDictonary);
-    
-    return [NSDictionary dictionaryWithDictionary:newDictonary];
-}
-
--(instancetype) init
-{
-    return [self initWithJsonScapeProperty:kDefaultScape];
-}
-
-- (instancetype)initWithJsonScapeProperty:(NSString *) escapeString {
-    self = [super init];
-    if(self){
-        self.scape = escapeString;
-    }
-    return self;
++ (NSDictionary *)JSONKeyPathsByPropertyKey {
+    return [self convertDictionaryPropertiesToJsonProperties];
 }
 
 @end
