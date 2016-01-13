@@ -21,8 +21,10 @@
     return self;
 }
 
-- (NSString *)convertPropertyClassToJSONProperty(NSString *)propertyName toEscape:(NSString *)escape {
+- (NSString *)convertPropertyClassToJSONProperty:(NSString *)propertyName toEscape:(NSString *)escapeString {
+    NSString *pattern = [NSString stringWithFormat:kPatternStringToConverter, escapeString];
     
+    return nil;
 }
 
 + (NSDictionary *)JSONKeyPathsByPropertyKey {
