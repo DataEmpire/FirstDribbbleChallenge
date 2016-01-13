@@ -35,11 +35,13 @@ typedef enum : NSUInteger {
  The default scape is '_'
  
  */
+static NSString const* kDefaultScape = @"_";
+
 @interface FDCMantleBase : MTLModel<MTLJSONSerializing>
 @property (nonatomic) NSString *scape;
 @property (nonatomic) ClassePropertyType propertiesType;
 
 - (instancetype)initWithClassPropertyType: (ClassePropertyType) type;
-
+- (instancetype)initWithJsonScapeProperty:(NSString *) escapeString;
 
 @end

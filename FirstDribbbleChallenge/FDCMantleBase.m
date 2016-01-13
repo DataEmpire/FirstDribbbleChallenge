@@ -27,23 +27,16 @@
     return nil;
 }
 
-
-+ (NSDictionary *)JSONKeyPathsByPropertyKey {
-    return [NSDictionary mtl_identityPropertyMapWithModel:self.class];
+- (NSDictionary *) convertDictionaryPropertiesToJsonProperties: (NSDictionary *) baseDictionary toEscape:(NSString *) escapeSting
+{
+    NSMutableDictionary *newDictonary = [NSMutableDictionary dictionaryWithDictionary:baseDictionary];
+    for(id key in newDictonary )
+    {
+        newDictonary[key] = [self convertPropertyClassToJSONProperty:key toEscape:self.scape];
+        NSLog(@"%@", newDictonary[key]);
+    }
+    return [NSDictionary dictionaryWithDictionary:newDictonary];
 }
-
-+ (NSDictionary *) JSONKeyPathsByPropertyKeyCamelCase {
-    return nil;
-}
-
-+ (NSDictionary *) JSONKeyPathsByPropertyKeyLowerCase {
-    return nil;
-}
-
-+ (NSDictionary *) JSONKeyPathsByPropertyKeyUnderLineSeparations {
-    return nil;
-}
-
 
 -(NSDictionary*)asDictError:(NSError**)error{
     return  [MTLJSONAdapter JSONDictionaryFromModel:self error:error];
@@ -56,6 +49,18 @@
 }
 
 
+-(instancetype) init
+{
+    return [self initWithJsonScapeProperty:kDefaultScape];
+}
+
+- (instancetype)initWithJsonScapeProperty:(NSString *) escapeString {
+    self = [super init];
+    if(self){
+        self.scape = escapeString;
+    }
+    return self;
+}
 
 @end
 
