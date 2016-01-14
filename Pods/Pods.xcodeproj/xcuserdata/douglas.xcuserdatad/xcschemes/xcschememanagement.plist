@@ -8,45 +8,101 @@
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>1</integer>
 		</dict>
 		<key>Bricks-Bricks.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>3</integer>
 		</dict>
 		<key>Bricks.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Expecta.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
 		</dict>
 		<key>Mantle.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>OCMock.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
+		<key>OHHTTPStubs.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
 		</dict>
 		<key>Pods-FirstDribbbleChallenge.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>Pods-FirstDribbbleChallengeTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
 		</dict>
 		<key>SDWebImage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
+		<key>Specta.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
+		</dict>
+		<key>TLJsonFactory-TLJsonFactory.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>15</integer>
+		</dict>
+		<key>TLJsonFactory.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>14</integer>
 		</dict>
 		<key>bricks-Mantle-bricks-Mantle.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>5</integer>
 		</dict>
 		<key>bricks-Mantle.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>4</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>045D3251CE3EFD09123EE341B544522A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>0B38A9AD07F0579844265B380949575C</key>
 		<dict>
 			<key>primary</key>
@@ -62,12 +118,42 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>2E210F4AD841621F968A5A22E4BCA81C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2F501FE84845EAD97B9087DAFCBBEE0E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>36DFA60DB9BDED03A836F8CB93670602</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4A2CAA839F2722C796C6F1DFDC806B92</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>4C021AB5A97488D4DD4E1A7971896FB9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>88B9BE29186448E9661C852E564D73FA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>928353533005A4198EBDA5B700D37B64</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B8BC550BD2CBC6A67D0342B23838A3F0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
