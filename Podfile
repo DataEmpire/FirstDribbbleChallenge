@@ -5,13 +5,16 @@
 
 target 'FirstDribbbleChallenge' do
 pod 'AFNetworking'
-pod 'Mantle'
+pod 'Bricks'
 pod 'bricks-Mantle'
-pod 'SDWebImage', '~>3.7'
-pod "Bricks"
+pod 'Mantle'
+pod 'SDWebImage'
 end
 
 target 'FirstDribbbleChallengeTests' do
-
+pod 'Expecta'
+pod 'OCMock'
+pod 'OHHTTPStubs'
+pod 'Specta'
+pod 'TLJsonFactory'
 end
-

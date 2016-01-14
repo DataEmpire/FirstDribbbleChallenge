@@ -8,46 +8,116 @@
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>1</integer>
+		</dict>
+		<key>Bricks-Bricks.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Bricks.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Expecta.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Mantle.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>4</integer>
+		</dict>
+		<key>OCMock.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>OHHTTPStubs.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Pods-FirstDribbbleChallenge.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>5</integer>
+		</dict>
+		<key>Pods-FirstDribbbleChallengeTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>SDWebImage.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>6</integer>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Specta.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>TLJsonFactory-TLJsonFactory.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>TLJsonFactory.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>bricks-Mantle-bricks-Mantle.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>3</integer>
 		</dict>
 		<key>bricks-Mantle.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>2</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>045D3251CE3EFD09123EE341B544522A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0B38A9AD07F0579844265B380949575C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>279789F1D6ED171CD17E680EECB6B976</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>27EAB41948E361D929A20E060B578736</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2E210F4AD841621F968A5A22E4BCA81C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2F501FE84845EAD97B9087DAFCBBEE0E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>36DFA60DB9BDED03A836F8CB93670602</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4A2CAA839F2722C796C6F1DFDC806B92</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -57,12 +127,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>86BCF7005F8EEC750C7835AB39095174</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>90904B9999590F25D4F66A17F053EDB2</key>
+		<key>88B9BE29186448E9661C852E564D73FA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -72,12 +137,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>B8BC550BD2CBC6A67D0342B23838A3F0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D61E9305B9459BC423C957108EC65894</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>E1731BCF5DED4613C6D8C39BACE8D2E9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>EF32EC8899658704C6D935534D875B0D</key>
+		<key>E7239ECBF597DA001E26215A1319CF59</key>
 		<dict>
 			<key>primary</key>
 			<true/>
