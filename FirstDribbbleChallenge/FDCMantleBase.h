@@ -6,9 +6,7 @@
 //  Copyright © 2016 Data Empire. All rights reserved.
 //
 
-#import <Mantle/MTLModel.h>
-#import <Mantle/NSDictionary+MTLMappingAdditions.h>
-#import <Mantle/MTLJSONAdapter.h>
+#import <bricks-Mantle/BKMBaseMantleObj.h>
 
 /*!@brief The character that marks other word in the property name on json file. */
 static NSString *const kDefaultScape = @"_";
@@ -26,15 +24,16 @@ static NSString *const kRegexPattern = @"([A-Z])";
  It will map all public properties to a NSDictionary where the Mantle framework will get and make the bind between the properties and json properties.
  To turn a behavior of binding class property with json property see the method customJSONKeyPathsByPropertyKey.
  */
-@interface FDCMantleBase : MTLModel<MTLJSONSerializing>
-
-/*! 
- @brief Initializes the object and set a custom value for the scape character. 
- @remarks This escape is used to marks the end of a break between words.
- */
-- (instancetype)initWithJsonScapeProperty:(NSString *)scape;
+@interface FDCMantleBase : BKMBaseMantleObj
 
 /*! @brief The method that contains all properties that have different names on json property name side. */
 + (NSDictionary *)customJSONKeyPathsByPropertyKey;
+
+/*! 
+ @brief Changes the scape that is used for separate words on property names.
+ @discussion For standard this scape is '_'.
+ @remarks This escape is used to marks the end of a break between words.
+ */
++ (NSString *)JSONScapeOnConvert;
 
 @end

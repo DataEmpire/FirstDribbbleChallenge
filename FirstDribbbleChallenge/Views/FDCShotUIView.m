@@ -28,7 +28,6 @@
     
 }
 
-
 - (void)setUpWithShotModel:(FDCShot *)shot {
     //SDWebImageManager *manager = [SDWebImageManager sharedManager];
     NSURL *imageURl = [NSURL URLWithString:[shot getImageURL]];
