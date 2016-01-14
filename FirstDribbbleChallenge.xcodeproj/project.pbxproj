@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4266D1174476BEB2D067E6F0 /* libPods-FirstDribbbleChallengeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 160999ABEEBC1D0CB6252824 /* libPods-FirstDribbbleChallengeTests.a */; };
 		53AB85CD1C43DA1E00D83036 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53AB85CC1C43DA1E00D83036 /* main.m */; };
 		53AB85D01C43DA1E00D83036 /* FDCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53AB85CF1C43DA1E00D83036 /* FDCAppDelegate.m */; };
 		53AB85D31C43DA1E00D83036 /* FDCDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53AB85D21C43DA1E00D83036 /* FDCDetailViewController.m */; };
@@ -42,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AF39B0E74DC22E5AA30DEF2 /* Pods-FirstDribbbleChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstDribbbleChallengeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirstDribbbleChallengeTests/Pods-FirstDribbbleChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		160999ABEEBC1D0CB6252824 /* libPods-FirstDribbbleChallengeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FirstDribbbleChallengeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2417CE69688A0FCEC6B05E0D /* Pods-FirstDribbbleChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstDribbbleChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirstDribbbleChallenge/Pods-FirstDribbbleChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 		45E0C98130E07B3FA6DF8A0B /* libPods-FirstDribbbleChallenge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FirstDribbbleChallenge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53AB85C81C43DA1E00D83036 /* Dribbble Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dribbble Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +72,7 @@
 		53AB86061C43E6BC00D83036 /* FDCSessionManager+Shots.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FDCSessionManager+Shots.h"; sourceTree = "<group>"; };
 		53AB86071C43E6BC00D83036 /* FDCSessionManager+Shots.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FDCSessionManager+Shots.m"; sourceTree = "<group>"; };
 		65C6331200F20F2A55CDF12D /* Pods-FirstDribbbleChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstDribbbleChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirstDribbbleChallenge/Pods-FirstDribbbleChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		6F92A8DF4CEC4881DC57D69D /* Pods-FirstDribbbleChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstDribbbleChallengeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirstDribbbleChallengeTests/Pods-FirstDribbbleChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A54637301C43E9AA0077A0E2 /* FDCUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FDCUser.h; path = FirstDribbbleChallenge/FDCUser.h; sourceTree = SOURCE_ROOT; };
 		A54637311C43E9AA0077A0E2 /* FDCUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FDCUser.m; path = FirstDribbbleChallenge/FDCUser.m; sourceTree = SOURCE_ROOT; };
 		A54637331C43EC5F0077A0E2 /* FDCLinks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FDCLinks.h; path = FirstDribbbleChallenge/FDCLinks.h; sourceTree = SOURCE_ROOT; };
@@ -99,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4266D1174476BEB2D067E6F0 /* libPods-FirstDribbbleChallengeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +115,8 @@
 			children = (
 				2417CE69688A0FCEC6B05E0D /* Pods-FirstDribbbleChallenge.debug.xcconfig */,
 				65C6331200F20F2A55CDF12D /* Pods-FirstDribbbleChallenge.release.xcconfig */,
+				6F92A8DF4CEC4881DC57D69D /* Pods-FirstDribbbleChallengeTests.debug.xcconfig */,
+				0AF39B0E74DC22E5AA30DEF2 /* Pods-FirstDribbbleChallengeTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -236,6 +243,7 @@
 			isa = PBXGroup;
 			children = (
 				45E0C98130E07B3FA6DF8A0B /* libPods-FirstDribbbleChallenge.a */,
+				160999ABEEBC1D0CB6252824 /* libPods-FirstDribbbleChallengeTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -276,9 +284,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 53AB85ED1C43DA1E00D83036 /* Build configuration list for PBXNativeTarget "FirstDribbbleChallengeTests" */;
 			buildPhases = (
+				AF266DEE3F1B80CAB90F6ED3 /* Check Pods Manifest.lock */,
 				53AB85DD1C43DA1E00D83036 /* Sources */,
 				53AB85DE1C43DA1E00D83036 /* Frameworks */,
 				53AB85DF1C43DA1E00D83036 /* Resources */,
+				7F6E59D8470812802637EB5A /* Embed Pods Frameworks */,
+				8051C5F0919403A3CD6B8CBE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -381,6 +392,51 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirstDribbbleChallenge/Pods-FirstDribbbleChallenge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F6E59D8470812802637EB5A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirstDribbbleChallengeTests/Pods-FirstDribbbleChallengeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8051C5F0919403A3CD6B8CBE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirstDribbbleChallengeTests/Pods-FirstDribbbleChallengeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF266DEE3F1B80CAB90F6ED3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		EFBB58C32CBF1B6F74D5237A /* Embed Pods Frameworks */ = {
@@ -571,6 +627,7 @@
 		};
 		53AB85EE1C43DA1E00D83036 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F92A8DF4CEC4881DC57D69D /* Pods-FirstDribbbleChallengeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = FirstDribbbleChallengeTests/Info.plist;
@@ -583,6 +640,7 @@
 		};
 		53AB85EF1C43DA1E00D83036 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AF39B0E74DC22E5AA30DEF2 /* Pods-FirstDribbbleChallengeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = FirstDribbbleChallengeTests/Info.plist;
