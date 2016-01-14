@@ -12,18 +12,8 @@
 
 @implementation FDCDribbbleTableViewCell
 
-
-+(CGFloat)cellHeightWithPadding:(CGFloat)padding{
-    return [self cellHeight] + padding;
-}
-
 +(CGFloat)cellHeight{
     return 240;
-}
-
-+(NSString *)cellIdentifier{
-    NSString *identifier = NSStringFromClass(self.class);//FDCDribbbleTableViewCell
-    return identifier;
 }
 
 -(void)setup:(id)object{
@@ -57,8 +47,6 @@
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
-    
-    // Configure the view for the selected state
 }
 
 - (void)setUpWithShotModel:(FDCShot *)shot {

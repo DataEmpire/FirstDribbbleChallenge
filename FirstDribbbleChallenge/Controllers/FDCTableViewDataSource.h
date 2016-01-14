@@ -14,14 +14,8 @@
 #import "FDCShot.h"
 
 @interface FDCTableViewDataSource : BKBaseTableViewDatasourceAndDelegate
-{
-    /*! @brief The shots that will be showed. */
-    NSMutableArray *_shots;
-    UITableViewController *_tableViewControler;
-}
 
+@property (nonatomic) NSMutableArray *shots;
 @property (nonatomic) FDCShot* selectedShot;
-
-- (void)getDribbleShots;
 
 @end
