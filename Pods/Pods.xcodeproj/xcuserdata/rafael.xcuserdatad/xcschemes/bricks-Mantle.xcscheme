@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '8CED788ED2AD78E9612CE7AE'
+               BlueprintIdentifier = '3AFDB561A3972B230CBB4EF6'
                BlueprintName = 'bricks-Mantle'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libbricks-Mantle.a'>

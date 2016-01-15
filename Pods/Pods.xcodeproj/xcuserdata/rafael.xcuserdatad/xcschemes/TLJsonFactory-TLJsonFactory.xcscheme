@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '486FE38364E22C56CF694A4E'
+               BlueprintIdentifier = '0A3DD9A837FCBB966D345D8E'
                BlueprintName = 'TLJsonFactory-TLJsonFactory'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'TLJsonFactory.bundle'>
