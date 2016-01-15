@@ -50,7 +50,7 @@
 		45E0C98130E07B3FA6DF8A0B /* libPods-FirstDribbbleChallenge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FirstDribbbleChallenge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		530952E41C482258008E0354 /* Shot.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Shot.json; sourceTree = "<group>"; };
 		530952E61C4822A6008E0354 /* FDCShotSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDCShotSpec.m; sourceTree = "<group>"; };
-		53AB85C81C43DA1E00D83036 /* Dribbble Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dribbble Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53AB85C81C43DA1E00D83036 /* FirstDribbbleChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstDribbbleChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53AB85CC1C43DA1E00D83036 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		53AB85CE1C43DA1E00D83036 /* FDCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDCAppDelegate.h; sourceTree = "<group>"; };
 		53AB85CF1C43DA1E00D83036 /* FDCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDCAppDelegate.m; sourceTree = "<group>"; };
@@ -153,7 +153,7 @@
 		53AB85C91C43DA1E00D83036 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				53AB85C81C43DA1E00D83036 /* Dribbble Challenge.app */,
+				53AB85C81C43DA1E00D83036 /* FirstDribbbleChallenge.app */,
 				53AB85E11C43DA1E00D83036 /* FirstDribbbleChallengeTests.xctest */,
 			);
 			name = Products;
@@ -296,7 +296,7 @@
 			);
 			name = FirstDribbbleChallenge;
 			productName = FirstDribbbleChallenge;
-			productReference = 53AB85C81C43DA1E00D83036 /* Dribbble Challenge.app */;
+			productReference = 53AB85C81C43DA1E00D83036 /* FirstDribbbleChallenge.app */;
 			productType = "com.apple.product-type.application";
 		};
 		53AB85E01C43DA1E00D83036 /* FirstDribbbleChallengeTests */ = {
@@ -629,7 +629,7 @@
 				INFOPLIST_FILE = FirstDribbbleChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "info.data-empire.FirstDribbbleChallenge";
-				PRODUCT_NAME = "Dribbble Challenge";
+				PRODUCT_NAME = "${TARGET_NAME}";
 			};
 			name = Debug;
 		};
@@ -641,7 +641,7 @@
 				INFOPLIST_FILE = FirstDribbbleChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "info.data-empire.FirstDribbbleChallenge";
-				PRODUCT_NAME = "Dribbble Challenge";
+				PRODUCT_NAME = "${TARGET_NAME}";
 			};
 			name = Release;
 		};

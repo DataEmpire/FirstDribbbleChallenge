@@ -23,14 +23,11 @@ describe(@"FDCShot", ^{
         NSDictionary *dictionary = [TLJsonFactory tl_jsonDictFromFile:@"Shot"];
         
         shot = [FDCShot parse:dictionary error:&errorOnParse];
-        
-        it(@"should be able to parse", ^{
-            
-            
-            //expect(shot).toNot.beNil;
-        });
     });
     
+    it(@"should be able to parse", ^{
+        expect(shot).toNot.beNil;
+    });
 });
 
 SpecEnd
