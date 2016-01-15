@@ -10,6 +10,13 @@
 		4266D1174476BEB2D067E6F0 /* libPods-FirstDribbbleChallengeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 160999ABEEBC1D0CB6252824 /* libPods-FirstDribbbleChallengeTests.a */; };
 		530952E51C482258008E0354 /* Shot.json in Resources */ = {isa = PBXBuildFile; fileRef = 530952E41C482258008E0354 /* Shot.json */; };
 		530952E71C4822A6008E0354 /* FDCShotSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 530952E61C4822A6008E0354 /* FDCShotSpec.m */; };
+		53106C8B1C4946FF004053FF /* FDCLinksSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 53106C8A1C4946FF004053FF /* FDCLinksSpec.m */; };
+		53106C8E1C494A12004053FF /* Links.json in Resources */ = {isa = PBXBuildFile; fileRef = 53106C8D1C494A12004053FF /* Links.json */; };
+		53106C901C494B02004053FF /* User.json in Resources */ = {isa = PBXBuildFile; fileRef = 53106C8F1C494B02004053FF /* User.json */; };
+		53106C921C494B3A004053FF /* FDCUserSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 53106C911C494B3A004053FF /* FDCUserSpec.m */; };
+		53106C941C495199004053FF /* FDCImageUrlsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 53106C931C495199004053FF /* FDCImageUrlsSpec.m */; };
+		53106C961C4951F3004053FF /* ImageUrls.json in Resources */ = {isa = PBXBuildFile; fileRef = 53106C951C4951F3004053FF /* ImageUrls.json */; };
+		53908E311C496652001D5399 /* FDCMantleBaseSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 53908E301C496652001D5399 /* FDCMantleBaseSpec.m */; };
 		53AB85CD1C43DA1E00D83036 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53AB85CC1C43DA1E00D83036 /* main.m */; };
 		53AB85D01C43DA1E00D83036 /* FDCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53AB85CF1C43DA1E00D83036 /* FDCAppDelegate.m */; };
 		53AB85D31C43DA1E00D83036 /* FDCDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53AB85D21C43DA1E00D83036 /* FDCDetailViewController.m */; };
@@ -50,6 +57,13 @@
 		45E0C98130E07B3FA6DF8A0B /* libPods-FirstDribbbleChallenge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FirstDribbbleChallenge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		530952E41C482258008E0354 /* Shot.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Shot.json; sourceTree = "<group>"; };
 		530952E61C4822A6008E0354 /* FDCShotSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDCShotSpec.m; sourceTree = "<group>"; };
+		53106C8A1C4946FF004053FF /* FDCLinksSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDCLinksSpec.m; sourceTree = "<group>"; };
+		53106C8D1C494A12004053FF /* Links.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Links.json; sourceTree = "<group>"; };
+		53106C8F1C494B02004053FF /* User.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = User.json; sourceTree = "<group>"; };
+		53106C911C494B3A004053FF /* FDCUserSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDCUserSpec.m; sourceTree = "<group>"; };
+		53106C931C495199004053FF /* FDCImageUrlsSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDCImageUrlsSpec.m; sourceTree = "<group>"; };
+		53106C951C4951F3004053FF /* ImageUrls.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ImageUrls.json; sourceTree = "<group>"; };
+		53908E301C496652001D5399 /* FDCMantleBaseSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDCMantleBaseSpec.m; sourceTree = "<group>"; };
 		53AB85C81C43DA1E00D83036 /* FirstDribbbleChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstDribbbleChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53AB85CC1C43DA1E00D83036 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		53AB85CE1C43DA1E00D83036 /* FDCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDCAppDelegate.h; sourceTree = "<group>"; };
@@ -127,6 +141,9 @@
 			isa = PBXGroup;
 			children = (
 				530952E41C482258008E0354 /* Shot.json */,
+				53106C8D1C494A12004053FF /* Links.json */,
+				53106C8F1C494B02004053FF /* User.json */,
+				53106C951C4951F3004053FF /* ImageUrls.json */,
 			);
 			path = Fixtures;
 			sourceTree = "<group>";
@@ -135,8 +152,19 @@
 			isa = PBXGroup;
 			children = (
 				530952E61C4822A6008E0354 /* FDCShotSpec.m */,
+				53106C8A1C4946FF004053FF /* FDCLinksSpec.m */,
+				53106C911C494B3A004053FF /* FDCUserSpec.m */,
+				53106C931C495199004053FF /* FDCImageUrlsSpec.m */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		53908E2F1C4965FB001D5399 /* Mantle */ = {
+			isa = PBXGroup;
+			children = (
+				53908E301C496652001D5399 /* FDCMantleBaseSpec.m */,
+			);
+			path = Mantle;
 			sourceTree = "<group>";
 		};
 		53AB85BF1C43DA1E00D83036 = {
@@ -190,6 +218,7 @@
 		53AB85E41C43DA1E00D83036 /* FirstDribbbleChallengeTests */ = {
 			isa = PBXGroup;
 			children = (
+				53908E2F1C4965FB001D5399 /* Mantle */,
 				530952E11C482003008E0354 /* Models */,
 				530952E01C481F7F008E0354 /* Fixtures */,
 				53AB85E71C43DA1E00D83036 /* Info.plist */,
@@ -378,6 +407,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				530952E51C482258008E0354 /* Shot.json in Resources */,
+				53106C901C494B02004053FF /* User.json in Resources */,
+				53106C961C4951F3004053FF /* ImageUrls.json in Resources */,
+				53106C8E1C494A12004053FF /* Links.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,6 +536,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				530952E71C4822A6008E0354 /* FDCShotSpec.m in Sources */,
+				53106C8B1C4946FF004053FF /* FDCLinksSpec.m in Sources */,
+				53106C941C495199004053FF /* FDCImageUrlsSpec.m in Sources */,
+				53106C921C494B3A004053FF /* FDCUserSpec.m in Sources */,
+				53908E311C496652001D5399 /* FDCMantleBaseSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

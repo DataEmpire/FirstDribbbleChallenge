@@ -15,8 +15,10 @@
 - (NSURLSessionDataTask *)getShotsOnPage:(NSNumber *)page success:(FDCDribbbleSuccessBlock)success failure:(FDCDribbbleFailureBlock)failure {
     NSDictionary *parameters = @{
                                  @"access_token": kClientAccessToken,
-                                 @"page": page
+                                 @"page": page,
+                                 @"list": @"animated"
                                  };
+    
     
     return [self GET:[NSString stringWithFormat:kShotsEndPoint, @1] parameters:parameters progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         NSError *error;

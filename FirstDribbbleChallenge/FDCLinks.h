@@ -7,6 +7,7 @@
 //
 
 #import "FDCMantleBase.h"
+
 @interface FDCLinks : FDCMantleBase
 
 @property (nonatomic, copy) NSString *web;
