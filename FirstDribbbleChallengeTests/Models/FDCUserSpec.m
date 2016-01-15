@@ -29,7 +29,7 @@ describe(@"FDCUser", ^{
         expect(user).toNot.beNil;
     });
     
-    it(@"should contain links property kind of NSLinks", ^{
+    it(@"should contain links property kind of FDCLinks", ^{
         expect(user.links).toNot.beNil;
         expect(user.links).to.beKindOf([FDCLinks class]);
     });
