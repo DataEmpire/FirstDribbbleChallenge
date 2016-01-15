@@ -19,7 +19,6 @@ static NSString *const kRegexPattern = @"([A-Z])";
 
 /*!
  @brief This class turn more easier the convert of a public property class to a json representation on mantle model.
- 
  @discussion 
  It will map all public properties to a NSDictionary where the Mantle framework will get and make the bind between the properties and json properties.
  To turn a behavior of binding class property with json property see the method customJSONKeyPathsByPropertyKey.
@@ -29,7 +28,7 @@ static NSString *const kRegexPattern = @"([A-Z])";
 /*! @brief The method that contains all properties that have different names on json property name side. */
 + (NSDictionary *)customJSONKeyPathsByPropertyKey;
 
-/*! 
+/*!
  @brief Changes the scape that is used for separate words on property names.
  @discussion For standard this scape is '_'.
  @remarks This escape is used to marks the end of a break between words.
