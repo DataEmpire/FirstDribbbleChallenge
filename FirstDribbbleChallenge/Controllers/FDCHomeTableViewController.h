@@ -12,8 +12,7 @@
 #import "FDCShot.h"
 
 /*! @brief The table view with the list from Dribbble. */
-@interface FDCHomeTableViewController : UITableViewController
-{
+@interface FDCHomeTableViewController : UITableViewController {
     
     FDCTableViewDataSource *_dataViewSource;
     //    /*! @brief The shots that will be showed. */
