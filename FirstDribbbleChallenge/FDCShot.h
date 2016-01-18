@@ -6,11 +6,9 @@
 //  Copyright © 2016 Data Empire. All rights reserved.
 //
 
-#import <Mantle/Mantle.h>
 #import "FDCUser.h"
 #import "FDCImageUrls.h"
 #import "FDCMantleBase.h"
-
 
 @interface FDCShot : FDCMantleBase
 

@@ -18,7 +18,6 @@
 }
 
 - (NSString *) getImageURL {
-    
     if(!isEmpty(self.images.normal))
         return self.images.normal;
     
