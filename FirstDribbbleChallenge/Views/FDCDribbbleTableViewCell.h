@@ -13,5 +13,4 @@
 /*! @brief The code-behind class for a dribbble shot item. */
 @interface FDCDribbbleTableViewCell : BKBaseTableViewCell
 @property (strong, nonatomic) FDCShotUIView *shotUIView;
-- (void)setUpWithShotModel:(FDCShot *)shot;
 @end

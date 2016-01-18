@@ -98,8 +98,8 @@
 		A54637371C43EFB20077A0E2 /* FDCImageUrls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FDCImageUrls.m; path = FirstDribbbleChallenge/FDCImageUrls.m; sourceTree = SOURCE_ROOT; };
 		A54637391C43F0E40077A0E2 /* FDCShot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FDCShot.h; path = FirstDribbbleChallenge/FDCShot.h; sourceTree = SOURCE_ROOT; };
 		A546373A1C43F0E40077A0E2 /* FDCShot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FDCShot.m; path = FirstDribbbleChallenge/FDCShot.m; sourceTree = SOURCE_ROOT; };
-		A58048AD1C48124700BA7B0D /* FDCMessageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDCMessageHelper.h; sourceTree = "<group>"; };
-		A58048AE1C48124700BA7B0D /* FDCMessageHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDCMessageHelper.m; sourceTree = "<group>"; };
+		A58048AD1C48124700BA7B0D /* FDCMessageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FDCMessageHelper.h; path = ../FDCMessageHelper.h; sourceTree = "<group>"; };
+		A58048AE1C48124700BA7B0D /* FDCMessageHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FDCMessageHelper.m; path = ../FDCMessageHelper.m; sourceTree = "<group>"; };
 		A596BBB41C46ED7D0046A7F9 /* FDCTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDCTableViewDataSource.h; sourceTree = "<group>"; };
 		A596BBB51C46ED7D0046A7F9 /* FDCTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDCTableViewDataSource.m; sourceTree = "<group>"; };
 		A5B444371C45591000AB2CF8 /* FDCShotUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDCShotUIView.h; sourceTree = "<group>"; };
@@ -193,7 +193,6 @@
 		53AB85CA1C43DA1E00D83036 /* FirstDribbbleChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				A58048AC1C48121D00BA7B0D /* Helpers */,
 				A5DDA0BF1C46B2B6008EB202 /* Mantle */,
 				53AB85FF1C43E25E00D83036 /* Network */,
 				53AB85FE1C43E10600D83036 /* Models */,
@@ -246,6 +245,8 @@
 		53AB85F11C43DCE200D83036 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				A58048AE1C48124700BA7B0D /* FDCMessageHelper.m */,
+				A58048AD1C48124700BA7B0D /* FDCMessageHelper.h */,
 				53AB85F21C43DD3400D83036 /* FDCConstants.h */,
 				53AB85F31C43DD3400D83036 /* FDCConstants.m */,
 			);
@@ -298,15 +299,6 @@
 				160999ABEEBC1D0CB6252824 /* libPods-FirstDribbbleChallengeTests.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		A58048AC1C48121D00BA7B0D /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				A58048AD1C48124700BA7B0D /* FDCMessageHelper.h */,
-				A58048AE1C48124700BA7B0D /* FDCMessageHelper.m */,
-			);
-			name = Helpers;
 			sourceTree = "<group>";
 		};
 		A5DDA0BF1C46B2B6008EB202 /* Mantle */ = {

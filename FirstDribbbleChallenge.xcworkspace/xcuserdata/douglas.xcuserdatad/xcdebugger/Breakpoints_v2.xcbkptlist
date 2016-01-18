@@ -60,11 +60,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FirstDribbbleChallenge/Views/FDCShotUIView.m"
-            timestampString = "474318393.222364"
+            timestampString = "474820093.143397"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
             landmarkName = "-setUpWithShotModel:"
             landmarkType = "5">
          </BreakpointContent>
@@ -76,11 +76,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FirstDribbbleChallenge/Views/FDCShotUIView.m"
-            timestampString = "474318393.222364"
+            timestampString = "474820093.143397"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
             landmarkName = "-setUpWithShotModel:"
             landmarkType = "5">
          </BreakpointContent>
@@ -92,11 +92,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FirstDribbbleChallenge/Views/FDCShotUIView.m"
-            timestampString = "474318393.222364"
+            timestampString = "474820336.875151"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
             landmarkName = "+initWithNibClassName"
             landmarkType = "5">
          </BreakpointContent>
@@ -108,12 +108,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FirstDribbbleChallenge/FDCMantleBase.m"
-            timestampString = "474404931.12724"
+            timestampString = "474819896.839379"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
-            landmarkName = "+convertDictionaryPropertiesToJsonProperties"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "+convertPropertyClassToJSONProperty:toEscape:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -129,71 +129,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "22"
             endingLineNumber = "22"
-            landmarkName = "-init"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FirstDribbbleChallenge/Views/FDCDribbbleTableViewCell.m"
-            timestampString = "474478813.074678"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
-            landmarkName = "+cellHeight"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FirstDribbbleChallenge/Views/FDCDribbbleTableViewCell.m"
-            timestampString = "474482540.622136"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
-            landmarkName = "-awakeFromNib"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FirstDribbbleChallenge/Views/FDCDribbbleTableViewCell.m"
-            timestampString = "474482540.622136"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
-            landmarkName = "-setSelected:animated:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FirstDribbbleChallenge/Views/FDCDribbbleTableViewCell.m"
-            timestampString = "474482540.622136"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
-            landmarkName = "-setUpWithShotModel:"
+            landmarkName = "+customJSONKeyPathsByPropertyKey"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -204,7 +140,23 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FirstDribbbleChallenge/Controllers/FDCHomeTableViewController.m"
-            timestampString = "474485766.768429"
+            timestampString = "474820646.182141"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "-fetchDribbleShots"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FirstDribbbleChallenge/Controllers/FDCHomeTableViewController.m"
+            timestampString = "474820646.182141"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "63"
@@ -220,27 +172,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FirstDribbbleChallenge/Controllers/FDCHomeTableViewController.m"
-            timestampString = "474485766.768429"
+            timestampString = "474820646.182141"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "62"
-            endingLineNumber = "62"
-            landmarkName = "-fetchDribbleShots"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FirstDribbbleChallenge/Controllers/FDCHomeTableViewController.m"
-            timestampString = "474485766.768429"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "69"
-            endingLineNumber = "69"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
             landmarkName = "-fetchDribbleShots"
             landmarkType = "5">
          </BreakpointContent>
@@ -284,11 +220,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FirstDribbbleChallenge/Controllers/FDCHomeTableViewController.m"
-            timestampString = "474485766.768429"
+            timestampString = "474820646.182141"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
             landmarkName = "-fetchDribbleShots"
             landmarkType = "5">
          </BreakpointContent>
@@ -300,11 +236,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FirstDribbbleChallenge/Controllers/FDCHomeTableViewController.m"
-            timestampString = "474485766.768429"
+            timestampString = "474820646.182141"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
             landmarkName = "-tableView:didSelectRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -316,7 +252,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FirstDribbbleChallenge/Controllers/FDCTableViewDataSource.m"
-            timestampString = "474485209.85039"
+            timestampString = "474820646.182141"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "42"

@@ -5,7 +5,6 @@
 //  Created by Douglas Barreto on 1/12/16.
 //  Copyright © 2016 Data Empire. All rights reserved.
 //
-
 #import <SDWebImage/UIImageView+WebCache.h>
 #import "FDCShotUIView.h"
 
@@ -29,9 +28,7 @@
 }
 
 - (void)setUpWithShotModel:(FDCShot *)shot {
-    //SDWebImageManager *manager = [SDWebImageManager sharedManager];
     NSURL *imageURl = [NSURL URLWithString:[shot getImageURL]];
-    
     __block UIActivityIndicatorView *localActivityIndicator = self.activityIndicator;
     localActivityIndicator.center = self.shotImageView.center;
     localActivityIndicator.hidesWhenStopped = YES;
@@ -48,7 +45,6 @@
 + (FDCShotUIView *)initWithNibClassName{
     
     return (FDCShotUIView *) [[[NSBundle mainBundle] loadNibNamed:NSStringFromClass([FDCShotUIView class]) owner:nil options:0] firstObject];
-    
 }
 
 
@@ -68,7 +64,6 @@
 - (void)constraintTo:(UIView *) uiComponent {
     
     self.translatesAutoresizingMaskIntoConstraints = NO;
-    
     [uiComponent addConstraint:[self pin:self  attribute:NSLayoutAttributeTop parent:uiComponent]];
     [uiComponent addConstraint:[self pin:self  attribute:NSLayoutAttributeLeft parent:uiComponent]];
     [uiComponent addConstraint:[self pin:self  attribute:NSLayoutAttributeBottom parent:uiComponent]];

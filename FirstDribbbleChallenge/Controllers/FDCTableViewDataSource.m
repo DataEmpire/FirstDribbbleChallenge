@@ -50,7 +50,7 @@
         cell = [[FDCDribbbleTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:kDribbbleCellIdentifier];
     }
     
-    [cell setUpWithShotModel:[self.modelContainer objectAtIndex:indexPath.row]];
+    [cell setup:[self.modelContainer objectAtIndex:indexPath.row]];
     
     return cell;
 }

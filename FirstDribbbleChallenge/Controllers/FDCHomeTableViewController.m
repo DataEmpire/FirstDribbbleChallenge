@@ -29,6 +29,7 @@ static BOOL isLoading = NO;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self.tableView setSeparatorStyle:UITableViewCellSeparatorStyleNone];
     [self fetchDribbleShots];
 }
 
