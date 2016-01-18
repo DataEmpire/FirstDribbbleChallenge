@@ -12,22 +12,26 @@
 
 @implementation FDCDribbbleTableViewCell
 
-
-+(CGFloat)cellHeightWithPadding:(CGFloat)padding{
-    return [self cellHeight] + padding;
-}
+//-(instancetype) initWithCoder:(NSCoder *)aDecoder
+//{
+//    self = [super initWithCoder:aDecoder];
+//    if(self)
+//    {
+//        [self setsty]
+//    }
+//    return self;
+//}
 
 +(CGFloat)cellHeight{
-    return 240;
+    return 283;
 }
 
-+(NSString *)cellIdentifier{
-    NSString *identifier = NSStringFromClass(self.class);//FDCDribbbleTableViewCell
-    return identifier;
-}
-
--(void)setup:(id)object{
-    
+-(void)setup:(id)object
+{
+    if(_shotUIView)
+    {
+        [_shotUIView setUpWithShotModel:object];
+    }
 }
 
 +(void)registerForTableView:(UITableView*)tableview{
@@ -35,8 +39,6 @@
     UINib *nib = [UINib nibWithNibName:identifier bundle:nil];
     [tableview registerNib:nib forCellReuseIdentifier:[self cellIdentifier]];
 }
-
-
 
 - (NSLayoutConstraint *)pin:(id)item attribute:(NSLayoutAttribute)attribute
 {
@@ -57,16 +59,5 @@
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
-    
-    // Configure the view for the selected state
 }
-
-- (void)setUpWithShotModel:(FDCShot *)shot {
-    
-    if(_shotUIView)
-    {
-        [_shotUIView setUpWithShotModel:shot];
-    }
-}
-
 @end

@@ -33,8 +33,6 @@ static NSString *scapeCharacter;
 + (NSDictionary *) convertDictionaryPropertiesToJsonProperties {
     NSDictionary *mantleMap = [NSDictionary mtl_identityPropertyMapWithModel:[self class]];
     
-    NSLog(@"%@", mantleMap);
-    
     NSMutableDictionary *customMantleMap = [NSMutableDictionary new];
     
     [mantleMap enumerateKeysAndObjectsUsingBlock:^(id  _Nonnull key, id  _Nonnull obj, BOOL * _Nonnull stop) {

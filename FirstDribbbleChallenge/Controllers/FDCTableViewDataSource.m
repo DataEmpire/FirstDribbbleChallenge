@@ -11,26 +11,36 @@
 #import "FDCHomeTableViewController.h"
 #import "FDCDribbbleTableViewCell.h"
 
+
+//@interface FDCDribbbleTableViewCell()
+//@property (strong, nonatomic)id modelContainer;
+//@end
+
 @implementation FDCTableViewDataSource
 
-/*! @brief Controls what page for Dribbble API I am working. */
-static int currentPage = 0;
 
-/*! @brief The loading flag, when its value is YES new requests for getShotsOnPage are not finished. */
-static BOOL isLoading = NO;
+-(instancetype)initWithModelContainer:(id)modelContainer controller:(UIViewController *)controller tableView:(UITableView *)tableView
+{
+    self = [super initWithModelContainer:modelContainer controller:controller tableView:tableView];
+    if (self) {
+        _shots = (NSMutableArray *)modelContainer;
+    }
+    return self;
+}
 
 
--(void)additionalInitialSetup{
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return [FDCDribbbleTableViewCell cellHeight];
 }
 
 -(void)registerCells{
-    [self.tableView registerNib:[UINib nibWithNibName:@"FDCDribbbleTableViewCell" bundle:nil] forCellReuseIdentifier:kDribbbleCellIdentifier];
+    [FDCDribbbleTableViewCell registerForTableView:self.tableView];
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    self.selectedShot = [_shots objectAtIndex:indexPath.row];
-    [self.modelContainer performSegueWithIdentifier:kHomeToDetailSegue sender:self];
+    self.selectedShot = [self.modelContainer objectAtIndex:indexPath.row];
+    [(UITableViewController *)self.controller tableView:tableView didSelectRowAtIndexPath:indexPath];
 }
 
 -(UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -40,37 +50,12 @@ static BOOL isLoading = NO;
         cell = [[FDCDribbbleTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:kDribbbleCellIdentifier];
     }
     
-    [cell setUpWithShotModel:[_shots objectAtIndex:indexPath.row]];
+    [cell setup:[self.modelContainer objectAtIndex:indexPath.row]];
     
     return cell;
 }
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return _shots.count;
-}
-
-- (void)getDribbleShots
-{
-    if (!isLoading) {
-        isLoading = YES;
-        
-        currentPage++;
-        
-        [[FDCSessionManager sharedManager] getShotsOnPage:[NSNumber numberWithInteger:currentPage] success:^(NSArray *responseModel) {
-            if (_shots) {
-                [_shots addObjectsFromArray:responseModel];
-            } else {
-                _shots = [NSMutableArray arrayWithArray:responseModel];
-            }
-            
-            [self.tableView reloadData];
-            
-            isLoading = NO;
-        } failure:^(NSError *error) {
-            FDCHomeTableViewController * controller = (FDCHomeTableViewController *)self.modelContainer;
-            [controller showAlertMessage:error.localizedDescription];
-            isLoading = NO;
-        }];
-    }
+    return [self.modelContainer count];
 }
 @end
