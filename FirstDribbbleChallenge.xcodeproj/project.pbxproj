@@ -94,16 +94,16 @@
 		53AB86071C43E6BC00D83036 /* FDCSessionManager+Shots.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FDCSessionManager+Shots.m"; sourceTree = "<group>"; };
 		65C6331200F20F2A55CDF12D /* Pods-FirstDribbbleChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstDribbbleChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirstDribbbleChallenge/Pods-FirstDribbbleChallenge.release.xcconfig"; sourceTree = "<group>"; };
 		6F92A8DF4CEC4881DC57D69D /* Pods-FirstDribbbleChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstDribbbleChallengeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirstDribbbleChallengeTests/Pods-FirstDribbbleChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
-		A54637301C43E9AA0077A0E2 /* FDCUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FDCUser.h; path = FirstDribbbleChallenge/Models/FDCUser.h; sourceTree = SOURCE_ROOT; };
-		A54637311C43E9AA0077A0E2 /* FDCUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FDCUser.m; path = FirstDribbbleChallenge/Models/FDCUser.m; sourceTree = SOURCE_ROOT; };
-		A54637331C43EC5F0077A0E2 /* FDCLinks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FDCLinks.h; path = FirstDribbbleChallenge/Models/FDCLinks.h; sourceTree = SOURCE_ROOT; };
-		A54637341C43EC5F0077A0E2 /* FDCLinks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FDCLinks.m; path = FirstDribbbleChallenge/Models/FDCLinks.m; sourceTree = SOURCE_ROOT; };
-		A54637361C43EFB20077A0E2 /* FDCImageUrls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FDCImageUrls.h; path = FirstDribbbleChallenge/Models/FDCImageUrls.h; sourceTree = SOURCE_ROOT; };
-		A54637371C43EFB20077A0E2 /* FDCImageUrls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FDCImageUrls.m; path = FirstDribbbleChallenge/Models/FDCImageUrls.m; sourceTree = SOURCE_ROOT; };
-		A54637391C43F0E40077A0E2 /* FDCShot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FDCShot.h; path = FirstDribbbleChallenge/Models/FDCShot.h; sourceTree = SOURCE_ROOT; };
-		A546373A1C43F0E40077A0E2 /* FDCShot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FDCShot.m; path = FirstDribbbleChallenge/Models/FDCShot.m; sourceTree = SOURCE_ROOT; };
-		A58048AD1C48124700BA7B0D /* FDCMessageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FDCMessageHelper.h; path = ../FDCMessageHelper.h; sourceTree = "<group>"; };
-		A58048AE1C48124700BA7B0D /* FDCMessageHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FDCMessageHelper.m; path = ../FDCMessageHelper.m; sourceTree = "<group>"; };
+		A54637301C43E9AA0077A0E2 /* FDCUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDCUser.h; sourceTree = "<group>"; };
+		A54637311C43E9AA0077A0E2 /* FDCUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDCUser.m; sourceTree = "<group>"; };
+		A54637331C43EC5F0077A0E2 /* FDCLinks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDCLinks.h; sourceTree = "<group>"; };
+		A54637341C43EC5F0077A0E2 /* FDCLinks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDCLinks.m; sourceTree = "<group>"; };
+		A54637361C43EFB20077A0E2 /* FDCImageUrls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDCImageUrls.h; sourceTree = "<group>"; };
+		A54637371C43EFB20077A0E2 /* FDCImageUrls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDCImageUrls.m; sourceTree = "<group>"; };
+		A54637391C43F0E40077A0E2 /* FDCShot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDCShot.h; sourceTree = "<group>"; };
+		A546373A1C43F0E40077A0E2 /* FDCShot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDCShot.m; sourceTree = "<group>"; };
+		A58048AD1C48124700BA7B0D /* FDCMessageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDCMessageHelper.h; sourceTree = "<group>"; };
+		A58048AE1C48124700BA7B0D /* FDCMessageHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDCMessageHelper.m; sourceTree = "<group>"; };
 		A596BBB41C46ED7D0046A7F9 /* FDCTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDCTableViewDataSource.h; sourceTree = "<group>"; };
 		A596BBB51C46ED7D0046A7F9 /* FDCTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDCTableViewDataSource.m; sourceTree = "<group>"; };
 		A5B444371C45591000AB2CF8 /* FDCShotUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDCShotUIView.h; sourceTree = "<group>"; };
@@ -259,10 +259,10 @@
 		53AB85F11C43DCE200D83036 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				A58048AE1C48124700BA7B0D /* FDCMessageHelper.m */,
-				A58048AD1C48124700BA7B0D /* FDCMessageHelper.h */,
 				53AB85F21C43DD3400D83036 /* FDCConstants.h */,
 				53AB85F31C43DD3400D83036 /* FDCConstants.m */,
+				A58048AD1C48124700BA7B0D /* FDCMessageHelper.h */,
+				A58048AE1C48124700BA7B0D /* FDCMessageHelper.m */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
