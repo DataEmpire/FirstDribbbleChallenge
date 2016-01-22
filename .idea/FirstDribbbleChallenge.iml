@@ -11,13 +11,14 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatcherHelpers.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beInstanceOf.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beFalsy.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatcherHelpers.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beLessThanOrEqualTo.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beFalsy.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+haveCountOf.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beCloseTo.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beInTheRangeOf.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beSupersetOf.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beKindOf.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beLessThanOrEqualTo.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatcherHelpers.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beNil.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beInTheRangeOf.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beSupersetOf.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+postNotification.m" isTestSource="false" />
@@ -25,6 +26,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beGreaterThan.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beKindOf.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+postNotification.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+contain.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beGreaterThan.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+equal.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+respondTo.h" isTestSource="false" />
@@ -33,31 +35,29 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beNil.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+raise.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+match.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beCloseTo.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+haveCountOf.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beGreaterThanOrEqualTo.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beSubclassOf.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beNil.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+raiseWithReason.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+respondTo.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+contain.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beSubclassOf.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+raiseWithReason.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beLessThan.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+contain.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beLessThanOrEqualTo.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beGreaterThanOrEqualTo.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beLessThan.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beLessThanOrEqualTo.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+haveCountOf.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beCloseTo.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+endWith.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beginWith.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beTruthy.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beIdenticalTo.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+endWith.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beginWith.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beTruthy.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beIdenticalTo.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+conformTo.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beLessThan.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beginWith.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beTruthy.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+conformTo.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beInstanceOf.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+equal.m" isTestSource="false" />
@@ -67,108 +67,141 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/EXPMatcher.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/ExpectaObject.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/NSValue+Expecta.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/ExpectaSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/EXPFloatTuple.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/ExpectaObject.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/ExpectaSupport.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/NSObject+Expecta.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/EXPDoubleTuple.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/EXPFloatTuple.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/ExpectaSupport.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/EXPDoubleTuple.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Expecta/Expecta/EXPFloatTuple.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/TLJsonFactory/Pod/Classes/TLJsonFactory.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/TLJsonFactory/Pod/Classes/TLJsonFactory.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/bricks-Mantle/Pod/Classes/BKMBaseMantleObj.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/bricks-Mantle/Pod/Classes/BKMBaseMantleObj.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFURLSessionManager.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFURLSessionManager.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFNetworking.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFAutoPurgingImageCache.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIKit+AFNetworking.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFImageDownloader.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIImage+AFNetworking.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFAutoPurgingImageCache.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFImageDownloader.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/UIView+WebCacheOperation.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/UIImageView+WebCache.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImageCompat.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImageManager.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/UIImageView+HighlightedWebCache.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImageDownloaderOperation.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/UIImage+GIF.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/UIImage+MultiFormat.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/UIImageView+HighlightedWebCache.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/NSData+ImageContentType.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImageOperation.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/UIImage+MultiFormat.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImageDownloader.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/UIButton+WebCache.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/NSData+ImageContentType.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImagePrefetcher.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/UIImage+GIF.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/UIButton+WebCache.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImageDecoder.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImagePrefetcher.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImageDownloader.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDImageCache.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImageDecoder.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/UIImageView+WebCache.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImageDownloaderOperation.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/UIView+WebCacheOperation.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDImageCache.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImageManager.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImageCompat.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SPTExcludeGlobalBeforeAfterEach.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SPTCallSite.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/XCTest+Private.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SpectaTypes.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SPTGlobalBeforeAfterEach.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SpectaUtility.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SPTCompiledExample.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SPTSharedExampleGroups.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SPTExample.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SPTTestSuite.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SPTSharedExampleGroups.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SPTExample.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SPTCompiledExample.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SpectaUtility.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SPTTestSuite.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/Specta.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SpectaTypes.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SpectaUtility.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SPTGlobalBeforeAfterEach.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SPTSharedExampleGroups.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SPTCallSite.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SPTSpec.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SPTCallSite.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SPTSpec.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/XCTestCase+Specta.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SpectaDSL.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SPTCompiledExample.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SPTExample.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SPTSpec.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SPTSharedExampleGroups.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SPTExampleGroup.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SPTExampleGroup.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/XCTestCase+Specta.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SpectaDSL.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SPTCallSite.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SPTExampleGroup.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SPTExampleGroup.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/OHHTTPStubs/OHHTTPStubs.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/OHHTTPStubs/OHHTTPStubs-dummy.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/OHHTTPStubs/OHHTTPStubs-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/XCTest+Private.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Specta/Specta/Specta/SPTExample.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/UIView+WebCacheOperation.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImagePrefetcher.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/UIImage+GIF.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImageManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/UIImageView+HighlightedWebCache.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/UIImageView+HighlightedWebCache.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/UIImage+GIF.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/UIImage+MultiFormat.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImagePrefetcher.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/NSData+ImageContentType.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImageOperation.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/UIImage+MultiFormat.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImageCompat.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/NSData+ImageContentType.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImageManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/UIButton+WebCache.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/UIButton+WebCache.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImageDecoder.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/UIImageView+WebCache.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImageDownloader.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImageDecoder.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDImageCache.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImageDownloaderOperation.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/UIImageView+WebCache.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImageDownloader.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/UIView+WebCacheOperation.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDImageCache.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImageDownloaderOperation.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImageCompat.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMBoxedReturnValueProvider.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMReturnValueProvider.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/NSMethodSignature+OCMAdditions.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMBoxedReturnValueProvider.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMStubRecorder.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/NSObject+OCMAdditions.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/NSNotificationCenter+OCMAdditions.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/NSObject+OCMAdditions.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/NSValue+OCMAdditions.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/NSNotificationCenter+OCMAdditions.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/NSValue+OCMAdditions.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMFunctions.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMInvocationExpectation.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMFunctions.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCProtocolMockObject.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMInvocationStub.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCProtocolMockObject.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMFunctionsPrivate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMRecorder.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMRecorder.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMVerifier.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMVerifier.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMRealObjectForwarder.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMInvocationExpectation.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMLocation.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMExceptionReturnValueProvider.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMLocation.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCObserverMockObject.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMInvocationMatcher.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMBlockCaller.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCObserverMockObject.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMStubRecorder.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMArg.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMockObject.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMBlockArgCaller.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMArg.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMPassByRefSetter.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMockObject.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMPassByRefSetter.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMInvocationMatcher.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMIndirectReturnValueProvider.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMBlockArgCaller.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMIndirectReturnValueProvider.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMock.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMExpectationRecorder.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMMacroState.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMConstraint.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCPartialMockObject.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/NSInvocation+OCMAdditions.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMNotificationPoster.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMExpectationRecorder.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMBlockCaller.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/NSInvocation+OCMAdditions.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMNotificationPoster.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMRealObjectForwarder.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMReturnValueProvider.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCPartialMockObject.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMConstraint.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMExceptionReturnValueProvider.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMObserverRecorder.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMObserverRecorder.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMArgAction.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMInvocationStub.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMArgAction.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMMacroState.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCClassMockObject.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/NSMethodSignature+OCMAdditions.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCClassMockObject.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Expecta/Expecta.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Expecta/Expecta-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Expecta/Expecta-prefix.pch" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-FirstDribbbleChallenge/Pods-FirstDribbbleChallenge.debug.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-FirstDribbbleChallenge/Pods-FirstDribbbleChallenge-dummy.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-FirstDribbbleChallenge/Pods-FirstDribbbleChallenge.release.xcconfig" isTestSource="false" />
@@ -183,43 +216,76 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-FirstDribbbleChallengeTests/Pods-FirstDribbbleChallengeTests-dummy.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-FirstDribbbleChallengeTests/Pods-FirstDribbbleChallengeTests-frameworks.sh" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-FirstDribbbleChallengeTests/Pods-FirstDribbbleChallengeTests.release.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Mantle/Mantle-prefix.pch" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Mantle/Mantle-dummy.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Mantle/Mantle.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/bricks-Mantle/bricks-Mantle-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/bricks-Mantle/bricks-Mantle-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/bricks-Mantle/bricks-Mantle.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/AFNetworking/AFNetworking.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/AFNetworking/AFNetworking-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/AFNetworking/AFNetworking-dummy.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SDWebImage/SDWebImage-prefix.pch" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SDWebImage/SDWebImage-dummy.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SDWebImage/SDWebImage.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Specta/Specta.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Specta/Specta-prefix.pch" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Specta/Specta-dummy.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Expecta/Expecta.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Expecta/Expecta-dummy.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Expecta/Expecta-prefix.pch" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/AFNetworking/AFNetworking-dummy.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/AFNetworking/AFNetworking-prefix.pch" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/AFNetworking/AFNetworking.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Bricks/Bricks-prefix.pch" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Bricks/Bricks-dummy.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Bricks/Bricks.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/bricks-Mantle/bricks-Mantle-dummy.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/bricks-Mantle/bricks-Mantle-prefix.pch" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/bricks-Mantle/bricks-Mantle.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Mantle/Mantle-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Mantle/Mantle-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Mantle/Mantle.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/TLJsonFactory/TLJsonFactory-prefix.pch" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/TLJsonFactory/TLJsonFactory-dummy.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/TLJsonFactory/TLJsonFactory.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/OHHTTPStubs/OHHTTPStubs.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/OHHTTPStubs/OHHTTPStubs-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/OHHTTPStubs/OHHTTPStubs-prefix.pch" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/OCMock/OCMock-dummy.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/OCMock/OCMock.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/OCMock/OCMock-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFURLSessionManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFURLSessionManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFNetworking.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFAutoPurgingImageCache.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIKit+AFNetworking.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFImageDownloader.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIImage+AFNetworking.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFAutoPurgingImageCache.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFImageDownloader.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Bricks/Pod/Classes/datasources/BKBaseTableViewDatasourceAndDelegate.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Bricks/Pod/Classes/datasources/BKBaseCollectionViewDatasourceAndDelegate.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Bricks/Pod/Classes/datasources/BKBaseTableViewDatasourceAndDelegate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Bricks/Pod/Classes/datasources/BKBaseCollectionViewDatasourceAndDelegate.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Bricks/Pod/Classes/cells/BKBaseTableViewCell.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Bricks/Pod/Classes/cells/BKBaseTableViewCell.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Bricks/Pod/Classes/cells/BKBaseCollectionViewCell.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Bricks/Pod/Classes/cells/BKBaseCollectionViewCell.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Bricks/Pod/Classes/protocols/BKBaseTableViewCellDelegate.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Bricks/Pod/Classes/protocols/BKCollectionViewCellDelegate.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Bricks/Pod/Classes/datasources/BKBaseCollectionViewDatasourceAndDelegate.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Bricks/Pod/Classes/datasources/BKBaseCollectionViewDatasourceAndDelegate.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Bricks/Pod/Classes/datasources/BKBaseTableViewDatasourceAndDelegate.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Bricks/Pod/Classes/datasources/BKBaseTableViewDatasourceAndDelegate.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Bricks/Pod/Classes/Bricks.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Mantle/Mantle/MTLReflection.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Mantle/Mantle/MTLReflection.m" isTestSource="false" />
@@ -234,9 +300,9 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/Mantle/Mantle/NSValueTransformer+MTLInversionAdditions.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Mantle/Mantle/MTLModel.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Mantle/Mantle/extobjc/EXTKeyPathCoding.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Mantle/Mantle/extobjc/EXTScope.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Mantle/Mantle/extobjc/metamacros.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Mantle/Mantle/extobjc/EXTRuntimeExtensions.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Mantle/Mantle/extobjc/EXTScope.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Mantle/Mantle/extobjc/EXTRuntimeExtensions.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Mantle/Mantle/extobjc/EXTScope.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Mantle/Mantle/MTLModel+NSCoding.h" isTestSource="false" />
@@ -266,113 +332,58 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/OHHTTPStubs/OHHTTPStubs/Sources/OHPathHelpers/OHPathHelpers.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OHHTTPStubs/OHHTTPStubs/Sources/OHPathHelpers/OHPathHelpers.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/OHHTTPStubs/OHHTTPStubs/Sources/OHHTTPStubs.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMBoxedReturnValueProvider.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMReturnValueProvider.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMFunctionsPrivate.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMBoxedReturnValueProvider.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMStubRecorder.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMReturnValueProvider.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/NSNotificationCenter+OCMAdditions.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/NSObject+OCMAdditions.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/NSValue+OCMAdditions.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/NSNotificationCenter+OCMAdditions.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/NSValue+OCMAdditions.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMFunctions.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMFunctions.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCProtocolMockObject.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMInvocationStub.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCProtocolMockObject.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMIndirectReturnValueProvider.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/NSMethodSignature+OCMAdditions.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMRecorder.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMRecorder.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMInvocationExpectation.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMVerifier.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMRealObjectForwarder.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMVerifier.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMInvocationExpectation.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMLocation.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMExceptionReturnValueProvider.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/NSObject+OCMAdditions.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMLocation.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCObserverMockObject.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMInvocationMatcher.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCObserverMockObject.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMStubRecorder.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMArg.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMockObject.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMExpectationRecorder.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMArg.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMPassByRefSetter.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMInvocationMatcher.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMPassByRefSetter.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMBlockArgCaller.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/NSMethodSignature+OCMAdditions.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMExpectationRecorder.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMIndirectReturnValueProvider.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMock.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCPartialMockObject.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMMacroState.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMConstraint.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCPartialMockObject.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/NSInvocation+OCMAdditions.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMNotificationPoster.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMConstraint.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMockObject.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMBlockCaller.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/NSInvocation+OCMAdditions.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMNotificationPoster.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMRealObjectForwarder.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMArgAction.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMExceptionReturnValueProvider.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMObserverRecorder.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMObserverRecorder.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMArgAction.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMInvocationStub.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMBlockCaller.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMMacroState.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCMBlockArgCaller.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCClassMockObject.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/OCMock/Source/OCMock/OCClassMockObject.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/bricks-Mantle/Pod/Classes/BKMBaseMantleObj.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/bricks-Mantle/Pod/Classes/BKMBaseMantleObj.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Podfile" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallengeTests/Fixtures/Shot.json" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallengeTests/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallengeTests/Models/FDCImageUrlsSpec.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallengeTests/Models/FDCShotSpec.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/Info.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/FDCUser.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/FDCImageUrls.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallengeTests/Models/FDCUserSpec.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallengeTests/Models/FDCLinksSpec.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallengeTests/Fixtures/Links.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallengeTests/Fixtures/Shot.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallengeTests/Fixtures/User.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallengeTests/Fixtures/Shots.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallengeTests/Fixtures/ImageUrls.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallengeTests/Mantle/FDCMantleBaseSpec.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallengeTests/Controllers/FDCHomeTableViewControllerSpec.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/Assets.xcassets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/Views/FDCShotUIView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/Views/FDCShotUIView.xib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/Views/FDCDribbbleTableViewCell.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/Views/FDCDribbbleTableViewCell.xib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/Views/FDCDribbbleTableViewCell.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/Views/FDCShotUIView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/Models/FDCShot.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/Models/FDCShot.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/Models/FDCImageUrls.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/Models/FDCUser.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/Models/FDCLinks.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/Models/FDCUser.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/Models/FDCImageUrls.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/Models/FDCLinks.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/Helpers/FDCConstants.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/Helpers/FDCConstants.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/FDCShot.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/FDCLinks.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/Helpers/FDCMessageHelper.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/Helpers/FDCMessageHelper.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/Supporting Files/main.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/FDCAppDelegate.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/Controllers/FDCHomeTableViewController.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/Controllers/FDCTableViewDataSource.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/Controllers/FDCDetailViewController.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/Controllers/FDCHomeTableViewController.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/Controllers/FDCTableViewDataSource.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/Controllers/FDCDetailViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/FDCAppDelegate.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/FDCImageUrls.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/FDCUser.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/FDCAppDelegate.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/Views/FDCShotUIView.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/Views/FDCDribbbleTableViewCell.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/Views/FDCDribbbleTableViewCell.xib" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/Views/FDCDribbbleTableViewCell.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/Views/FDCShotUIView.xib" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/Views/FDCShotUIView.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/Base.lproj/LaunchScreen.storyboard" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/Base.lproj/Main.storyboard" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/FDCMantleBase.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/Network/FDCSessionManager+Shots.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/Network/FDCSessionManager.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/Network/FDCSessionManager+Shots.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/Network/FDCSessionManager.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/Supporting Files/main.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/FDCShot.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/FDCMantleBase.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/FDCLinks.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/FDCAppDelegate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/Mantle/FDCMantleBase.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/Mantle/FDCMantleBase.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/Base.lproj/LaunchScreen.storyboard" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FirstDribbbleChallenge/Base.lproj/Main.storyboard" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
